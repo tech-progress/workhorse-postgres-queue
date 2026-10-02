@@ -1,0 +1,21 @@
+{
+  "Postgres": {
+    "PORT": "5432",
+    "POSTGRES_DB": "workhorse",
+    "POSTGRES_USER": "workhorse",
+    "POSTGRES_PASSWORD": "${{secret(32, \"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\")}}",
+    "PGDATA": "/var/lib/postgresql/data/pgdata"
+  },
+  "Worker": {
+    "PORT": "3000",
+    "DATABASE_URL": "postgresql://${{Postgres.POSTGRES_USER}}:${{Postgres.POSTGRES_PASSWORD}}@${{Postgres.RAILWAY_PRIVATE_DOMAIN}}:5432/${{Postgres.POSTGRES_DB}}",
+    "WORKER_CONCURRENCY": "2"
+  },
+  "Dashboard": {
+    "PORT": "3000",
+    "DATABASE_URL": "postgresql://${{Postgres.POSTGRES_USER}}:${{Postgres.POSTGRES_PASSWORD}}@${{Postgres.RAILWAY_PRIVATE_DOMAIN}}:5432/${{Postgres.POSTGRES_DB}}",
+    "WORKHORSE_DASHBOARD_USERNAME": "operator",
+    "WORKHORSE_DASHBOARD_PASSWORD": "${{secret(32, \"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\")}}",
+    "DASHBOARD_PUBLIC_ORIGIN": "https://${{Dashboard.RAILWAY_PUBLIC_DOMAIN}}"
+  }
+}

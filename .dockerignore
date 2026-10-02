@@ -1,0 +1,12 @@
+.env
+.env.*
+node_modules
+.venv
+__pycache__
+**/__pycache__
+.git
+*.dump
+*.tar*
+*.draft.json
+.verification
+FINDINGS.md

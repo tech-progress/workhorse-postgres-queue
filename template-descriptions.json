@@ -1,0 +1,21 @@
+{
+  "Postgres": {
+    "PORT": "Internal listener/probe target port; do not expose private services.",
+    "POSTGRES_DB": "Durable queue database name.",
+    "POSTGRES_USER": "Database owner for schema installation; isolate from other applications.",
+    "POSTGRES_PASSWORD": "Generated alphanumeric database credential, referenced by applications.",
+    "PGDATA": "PostgreSQL cluster subdirectory on its exclusive volume."
+  },
+  "Worker": {
+    "PORT": "Internal listener/probe target port; do not expose private services.",
+    "DATABASE_URL": "Direct private PostgreSQL connection using service references; no public database endpoint.",
+    "WORKER_CONCURRENCY": "Bounded process concurrency, integer 1-4; default 2 with an eight-connection pool."
+  },
+  "Dashboard": {
+    "PORT": "Internal listener/probe target port; do not expose private services.",
+    "DATABASE_URL": "Direct private PostgreSQL connection using service references; no public database endpoint.",
+    "WORKHORSE_DASHBOARD_USERNAME": "Single read-only operator username.",
+    "WORKHORSE_DASHBOARD_PASSWORD": "Generated administrator password (minimum 16 characters); hashed in memory before authentication.",
+    "DASHBOARD_PUBLIC_ORIGIN": "HTTPS public dashboard origin for upstream host/origin protection."
+  }
+}

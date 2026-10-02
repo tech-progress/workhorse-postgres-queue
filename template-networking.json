@@ -1,0 +1,7 @@
+{
+  "Postgres": {},
+  "Worker": {},
+  "Dashboard": {
+    "publicPort": 3000
+  }
+}

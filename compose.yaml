@@ -1,0 +1,54 @@
+services:
+  postgres:
+    image: postgres:17.9-bookworm@sha256:47f917f7409eacd22fc5dfb1dee634e1b55cf0c01d1a7eb701be2227a03e0641
+    environment:
+      POSTGRES_DB: workhorse
+      POSTGRES_USER: workhorse
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes: ["postgres-data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U workhorse -d workhorse"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+  schema:
+    build: .
+    command: [node, app/install.mjs]
+    environment:
+      DATABASE_URL: postgresql://workhorse:${POSTGRES_PASSWORD}@postgres:5432/workhorse
+    depends_on:
+      postgres: {condition: service_healthy}
+  worker:
+    build: .
+    environment:
+      DATABASE_URL: postgresql://workhorse:${POSTGRES_PASSWORD}@postgres:5432/workhorse
+      WORKER_CONCURRENCY: ${WORKER_CONCURRENCY:-2}
+      PORT: "3000"
+    depends_on:
+      schema: {condition: service_completed_successfully}
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://localhost:3000/readyz').then(r=>process.exit(r.ok?0:1))"]
+      interval: 3s
+      timeout: 3s
+      retries: 50
+    stop_grace_period: 25s
+  dashboard:
+    build: .
+    command: [node, app/dashboard.mjs]
+    environment:
+      DATABASE_URL: postgresql://workhorse:${POSTGRES_PASSWORD}@postgres:5432/workhorse
+      WORKHORSE_DASHBOARD_USERNAME: ${WORKHORSE_DASHBOARD_USERNAME:-operator}
+      WORKHORSE_DASHBOARD_PASSWORD: ${WORKHORSE_DASHBOARD_PASSWORD:?Set WORKHORSE_DASHBOARD_PASSWORD}
+      DASHBOARD_PUBLIC_ORIGIN: ${DASHBOARD_PUBLIC_ORIGIN:-https://localhost:18100}
+      PORT: "3000"
+    ports: ["127.0.0.1:${DASHBOARD_PORT:-18100}:3000"]
+    depends_on:
+      schema: {condition: service_completed_successfully}
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://localhost:3000/readyz').then(r=>process.exit(r.ok?0:1))"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+volumes:
+  postgres-data:

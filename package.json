@@ -1,0 +1,19 @@
+{
+  "name": "railway-workhorse-postgres-queue",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "start": "node app/worker.mjs",
+    "dashboard": "node app/dashboard.mjs",
+    "schema": "node app/install.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "bash scripts/verify.sh",
+    "smoke": "bash scripts/smoke.sh"
+  },
+  "dependencies": {
+    "@stablemates/workhorse": "0.6.0",
+    "@stablemates/workhorse-dashboard": "0.6.0"
+  },
+  "devDependencies": { "railway": "3.6.0" }
+}

@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.dump
+*.tar
+*.tar.gz
+*.draft.json
+.verification/
