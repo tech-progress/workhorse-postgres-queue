@@ -18,4 +18,4 @@ Workhorse core and dashboard packages are Apache-2.0; PostgreSQL uses the Postgr
 
 ## Publication gate
 
-Preserve all upstream license/notice material already shipped in dependencies/images. Before standalone publication, inventory transitive distributions/assets and confirm the owner's intended license for the original recipe wrapper; do not assume that upstream licensing licenses new wrapper code. No blanket new license header or copied commercial license has been added.
+The owner approved MIT only for original recipe code. The locked production npm inventory and retained upstream/browser notices are documented in THIRD_PARTY_NOTICES.md. Dependencies are installed without stripping their license files, and unmodified Node/Debian/PostgreSQL base layers retain their separate notices. No upstream component is relabeled MIT. This source qualification does not imply an image vulnerability certification, a trademark grant or production support.
