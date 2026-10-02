@@ -3,7 +3,7 @@
   "name": "Workhorse PostgreSQL queue",
   "category": "Automation",
   "description": "PostgreSQL durable tasks with crash recovery and protected dashboard.",
-  "icon": "https://raw.githubusercontent.com/stablemates/workhorse/v0.6.0/dashboard/app/src/assets/workhorse-favicon.svg",
+  "icon": "https://raw.githubusercontent.com/stablemates/workhorse/v0.6.1/dashboard/app/src/assets/workhorse-favicon.svg",
   "origins": [
     {
       "name": "Workhorse",

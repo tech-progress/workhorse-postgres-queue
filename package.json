@@ -12,8 +12,8 @@
     "smoke": "bash scripts/smoke.sh"
   },
   "dependencies": {
-    "@stablemates/workhorse": "0.6.0",
-    "@stablemates/workhorse-dashboard": "0.6.0"
+    "@stablemates/workhorse": "0.6.1",
+    "@stablemates/workhorse-dashboard": "0.6.1"
   },
   "devDependencies": { "railway": "3.6.0" }
 }

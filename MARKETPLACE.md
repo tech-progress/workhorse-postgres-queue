@@ -4,7 +4,7 @@ PostgreSQL durable tasks with crash recovery and protected dashboard.
 
 ## About Hosting Workhorse PostgreSQL queue
 
-Three independently deployed services: PostgreSQL 17.9, a Node.js 24 worker with Workhorse SDK 0.6.0, and the matching read-only dashboard. No Redis, broker, shared service disk, Docker socket, or public database. Workhorse is public beta; this is an evaluation/small-team queue recipe, not an exactly-once or HA guarantee.
+Three independently deployed services: PostgreSQL 17.11, a Node.js 24 worker with Workhorse SDK 0.6.1, and the matching read-only dashboard. No Redis, broker, shared service disk, Docker socket, or public database. Workhorse is public beta; this is an evaluation/small-team queue recipe, not an exactly-once or HA guarantee.
 
 The worker's pre-deploy command installs Workhorse's ordered schema plus the recipe effect table. Runtime worker/dashboard processes only assert schema compatibility. Dashboard startup waits for the schema gate. Run the pre-deploy installer once per release, not from each worker replica; migrations require the database to already be available.
 

@@ -1,0 +1,2419 @@
+{
+  "scope": "Exact 0.6.1 production-source provenance and original grants; no runtime test receipts",
+  "lockSha256": "330a419ad715a7a9fc81283992c77446aea64062e74fb909207d3572597d8f91",
+  "packages": [
+    {
+      "installPath": "node_modules/@babel/runtime",
+      "name": "@babel/runtime",
+      "version": "7.29.7",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.7.tgz",
+      "integrity": "sha512-Nq8OhGWiZIZGV6hLHoyAKLLcJihP/xFeBMGJoUrxTX2psI8dCifzLhZISFb+VWS3wFMRDmCGw5R+dOySCqPLhw==",
+      "tarballSha256": "4d7f1bd502a1a64d47625cc738d13284865f0666d2ed01f244de0adf05b69aa5",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@babel/runtime/LICENSE",
+          "evidence": "notices/@babel/runtime@7.29.7/package/LICENSE",
+          "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+          "bytes": 1106
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@floating-ui/core",
+      "name": "@floating-ui/core",
+      "version": "1.8.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@floating-ui/core/-/core-1.8.0.tgz",
+      "integrity": "sha512-0CIZ5itps/8x7BG8dEIhs53BvCUH2PCoogtakwRTut+Arm58sJooJ0AuZhLw2HJYIR5cMLNPBSS728sPho2khQ==",
+      "tarballSha256": "c86371bdb19948a71591d36f23ec33d2b54e06503bd5c2e00a2dbbfa389622fd",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@floating-ui/core/LICENSE",
+          "evidence": "notices/@floating-ui/core@1.8.0/package/LICENSE",
+          "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce",
+          "bytes": 1089
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@floating-ui/dom",
+      "name": "@floating-ui/dom",
+      "version": "1.8.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@floating-ui/dom/-/dom-1.8.0.tgz",
+      "integrity": "sha512-yXSrzeHZBTZadLOlfyhCkJHNeLJnHRnRInwdZ40L7ZiaAtrBwoYlsDrX3v5zB1Utk7CLfzcOVnVVWoXEky7Ceg==",
+      "tarballSha256": "b9511cc8fd8898c7c67143ff8dd93a3d427108632c801a546ae72ab1df3cd6a5",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@floating-ui/dom/LICENSE",
+          "evidence": "notices/@floating-ui/dom@1.8.0/package/LICENSE",
+          "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce",
+          "bytes": 1089
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@floating-ui/react",
+      "name": "@floating-ui/react",
+      "version": "0.27.20",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@floating-ui/react/-/react-0.27.20.tgz",
+      "integrity": "sha512-CMqMy7OaXl9W0eq1Uy7L7i2Y/anPvHmFmESd2CEw0t5YvZhcVCeo4MBevAmswRllX7Y2dEidA4ozGPunLSTQpw==",
+      "tarballSha256": "0a915d22d562748f6ad64d768b5dc937c5345def5ba5a8fd43a6fea8eb34174e",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@floating-ui/react/LICENSE",
+          "evidence": "notices/@floating-ui/react@0.27.20/package/LICENSE",
+          "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce",
+          "bytes": 1089
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@floating-ui/react-dom",
+      "name": "@floating-ui/react-dom",
+      "version": "2.1.9",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@floating-ui/react-dom/-/react-dom-2.1.9.tgz",
+      "integrity": "sha512-JDjEFGCpImxDCA7JJKviA0M9+RtmJdj0m/NVU5IMgBK+AmZouAQQ7/+2GLH0GXXY0YMw9oXPB8hKdbPYg5QLYg==",
+      "tarballSha256": "c60ae5915affc398222f7c24350069f2e4a3a18dd2ef641bc45ad6e0d4148739",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@floating-ui/react-dom/LICENSE",
+          "evidence": "notices/@floating-ui/react-dom@2.1.9/package/LICENSE",
+          "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce",
+          "bytes": 1089
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@floating-ui/utils",
+      "name": "@floating-ui/utils",
+      "version": "0.2.12",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.12.tgz",
+      "integrity": "sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==",
+      "tarballSha256": "fe0800a3de3d9c819bf63e525bf26080ce692969dda400c715780141a187928f",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@floating-ui/utils/LICENSE",
+          "evidence": "notices/@floating-ui/utils@0.2.12/package/LICENSE",
+          "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce",
+          "bytes": 1089
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@mantine/charts",
+      "name": "@mantine/charts",
+      "version": "9.6.3",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@mantine/charts/-/charts-9.6.3.tgz",
+      "integrity": "sha512-u7mBp8l85AflCHNIHGD5J8FEtUeL5OAaLpl36ZFcQ53sJTt4hlmM58qvwE9OBj3c1vb9nU5fiM8evSDVAg2bzA==",
+      "tarballSha256": "2ec2decaac6009cb0e5ad67b39dd38774ace2f587b7d4e9a389679a95d398d72",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@mantine/charts/LICENSE",
+          "evidence": "notices/@mantine/charts@9.6.3/package/LICENSE",
+          "sha256": "61c765e625bc25d55143f14de7554685c52f21d9e671d3d204304691a163d06a",
+          "bytes": 1073
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@mantine/core",
+      "name": "@mantine/core",
+      "version": "9.6.3",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@mantine/core/-/core-9.6.3.tgz",
+      "integrity": "sha512-o9xzpkma6RiLbENNU4VoxKnCU4VaFlB6Yh6wAjAUiU329ypPV6tBY7VkVeQQ5Z+e12D3I+NTPrUw43onlYCqTg==",
+      "tarballSha256": "5e6099161276c5cc7b8c3a99a6af9b1cdd05e4bdcd10d62885b7ec2bd9872139",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@mantine/core/LICENSE",
+          "evidence": "notices/@mantine/core@9.6.3/package/LICENSE",
+          "sha256": "61c765e625bc25d55143f14de7554685c52f21d9e671d3d204304691a163d06a",
+          "bytes": 1073
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@mantine/hooks",
+      "name": "@mantine/hooks",
+      "version": "9.6.3",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@mantine/hooks/-/hooks-9.6.3.tgz",
+      "integrity": "sha512-b3uJx1p5vlXOmLEgp4OqzC3FUxSIc5bmqPPxPLHsgR6S0aBiqn9psaihJP7u/v//mr3qeCmyMeIwSw9ROu4pXg==",
+      "tarballSha256": "6c5f02891f9d576bd6fefcf81bd5abf9529bada16900dc8c0c6e71817bf163de",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@mantine/hooks/LICENSE",
+          "evidence": "notices/@mantine/hooks@9.6.3/package/LICENSE",
+          "sha256": "61c765e625bc25d55143f14de7554685c52f21d9e671d3d204304691a163d06a",
+          "bytes": 1073
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@mantine/notifications",
+      "name": "@mantine/notifications",
+      "version": "9.6.3",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@mantine/notifications/-/notifications-9.6.3.tgz",
+      "integrity": "sha512-1imtNfBwZ0JBDrg3ohVuZLnJvwRVhb7eWFbcfz5QFSy7hbM/MereURExWUGbZRBiJhQz850Aj6fVSEAviK6vdg==",
+      "tarballSha256": "20ee66ae5ec8bc73d54b0fce4d93a46d72cd41ce62a4aa3ee45483bcdcf0bd52",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@mantine/notifications/LICENSE",
+          "evidence": "notices/@mantine/notifications@9.6.3/package/LICENSE",
+          "sha256": "61c765e625bc25d55143f14de7554685c52f21d9e671d3d204304691a163d06a",
+          "bytes": 1073
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@mantine/store",
+      "name": "@mantine/store",
+      "version": "9.6.3",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@mantine/store/-/store-9.6.3.tgz",
+      "integrity": "sha512-EdD0QAn5HpsAKbvZwz7cqzq4E+4UpXCWK3hK5SR/O/WFtSAm0tUIyKBcrQ9baPRoQknfhOBmN7A17K+PdOzGqg==",
+      "tarballSha256": "9624d425c7d96561610e4b6140b8251c53a9af51ef8bb9dfc9db2eb2b3ed1073",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@mantine/store/LICENSE",
+          "evidence": "notices/@mantine/store@9.6.3/package/LICENSE",
+          "sha256": "61c765e625bc25d55143f14de7554685c52f21d9e671d3d204304691a163d06a",
+          "bytes": 1073
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@opentelemetry/api",
+      "name": "@opentelemetry/api",
+      "version": "1.9.1",
+      "declaredLicense": "Apache-2.0",
+      "lockLicense": "Apache-2.0",
+      "tarball": "https://registry.npmjs.org/@opentelemetry/api/-/api-1.9.1.tgz",
+      "integrity": "sha512-gLyJlPHPZYdAk1JENA9LeHejZe1Ti77/pTeFm/nMXmQH/HFZlcS/O2XJB+L8fkbrNSqhdtlvjBVjxwUYanNH5Q==",
+      "tarballSha256": "11e2afae4775acd23e73cf4a131a395d2198eae3bddded177220fbdab9673cd2",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@opentelemetry/api/LICENSE",
+          "evidence": "notices/@opentelemetry/api@1.9.1/package/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@opentelemetry/api-logs",
+      "name": "@opentelemetry/api-logs",
+      "version": "0.222.0",
+      "declaredLicense": "Apache-2.0",
+      "lockLicense": "Apache-2.0",
+      "tarball": "https://registry.npmjs.org/@opentelemetry/api-logs/-/api-logs-0.222.0.tgz",
+      "integrity": "sha512-9mb1If+IF6u0ZVXkHQ6ogEae5HwA6ajIVUgpSDQyRASxft6BSXHvBvPooRle3yFN/fKnCdSOnuu0OC3PLcF6+g==",
+      "tarballSha256": "5704c4d24babb876e42964735843e48e7e68fd53769e95ad6f0d66740e286b2c",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@opentelemetry/api-logs/LICENSE",
+          "evidence": "notices/@opentelemetry/api-logs@0.222.0/package/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@orpc/client",
+      "name": "@orpc/client",
+      "version": "1.15.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@orpc/client/-/client-1.15.4.tgz",
+      "integrity": "sha512-8Iv2K8Rj8hf6xHCTxmQ+gxgiY6EATDossQk4gdt3oSbGVV0x2RSeLtRK9Zry+KVsmOqPJfnLahfRp7H2rQ/Vgg==",
+      "tarballSha256": "72f9a8ce57949f460410711d80d2ac7d7b95cfa9e2c1822a9473b607bd3969d7",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@orpc/client/LICENSE",
+          "evidence": "notices/@orpc/client@1.15.4/package/LICENSE",
+          "sha256": "fa3f0d958e5affd642604f663e399794da28747018cdac1dafef2465ee7e07b0",
+          "bytes": 1060
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@orpc/contract",
+      "name": "@orpc/contract",
+      "version": "1.15.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@orpc/contract/-/contract-1.15.4.tgz",
+      "integrity": "sha512-mxH+kuIsKz7BGsoqDHShnMjKG7GvCMGpvxTtJnkpbowIp2iBz8XiWosiWBybZcUl1Dy9W77TyOk6pNqG5I4D6w==",
+      "tarballSha256": "fdd45e1fabeff28a184090f7130202e9c329882188819148358d099dfcca6170",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@orpc/contract/LICENSE",
+          "evidence": "notices/@orpc/contract@1.15.4/package/LICENSE",
+          "sha256": "fa3f0d958e5affd642604f663e399794da28747018cdac1dafef2465ee7e07b0",
+          "bytes": 1060
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@orpc/interop",
+      "name": "@orpc/interop",
+      "version": "1.15.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@orpc/interop/-/interop-1.15.4.tgz",
+      "integrity": "sha512-ZCTNPenr1clZ2RBCJxsCsvS3eS8MJIDSx/LH1AIAKj9RjvfOXI/BnjHmgD4jUEIa6FcG+c2LV/1IXVJpC6NoTw==",
+      "tarballSha256": "812d87961f16721d07142a97017f1ec5c4ee5e057325cfe0e1ede175b0064d48",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@orpc/interop/LICENSE",
+          "evidence": "notices/@orpc/interop@1.15.4/package/LICENSE",
+          "sha256": "fa3f0d958e5affd642604f663e399794da28747018cdac1dafef2465ee7e07b0",
+          "bytes": 1060
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@orpc/server",
+      "name": "@orpc/server",
+      "version": "1.15.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@orpc/server/-/server-1.15.4.tgz",
+      "integrity": "sha512-Ccs2Pdwql2XRtk7bzkiZohoYuUVNcffydbswhz75rdepCQt0HmKosfVhsqjAqCKDDB7c84ct7Q7c5Z/xQak7pQ==",
+      "tarballSha256": "63f34fd4e1c5c9376cf6a059b236cf781b71473c1e6bdfd6daebf463f626bda0",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@orpc/server/LICENSE",
+          "evidence": "notices/@orpc/server@1.15.4/package/LICENSE",
+          "sha256": "fa3f0d958e5affd642604f663e399794da28747018cdac1dafef2465ee7e07b0",
+          "bytes": 1060
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@orpc/shared",
+      "name": "@orpc/shared",
+      "version": "1.15.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@orpc/shared/-/shared-1.15.4.tgz",
+      "integrity": "sha512-syNylxXmv1WnroSDUvtYjuvu0YMAYzkLTjFPa0CggnaF3DH2YmAnRS5GGGzSPRAbhMtRAXArIoM7GVrRNKHxng==",
+      "tarballSha256": "91caef94fb65d1129aae9010233d396f8e74580790ce12890ba4506104efdff4",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@orpc/shared/LICENSE",
+          "evidence": "notices/@orpc/shared@1.15.4/package/LICENSE",
+          "sha256": "fa3f0d958e5affd642604f663e399794da28747018cdac1dafef2465ee7e07b0",
+          "bytes": 1060
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@orpc/standard-server",
+      "name": "@orpc/standard-server",
+      "version": "1.15.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@orpc/standard-server/-/standard-server-1.15.4.tgz",
+      "integrity": "sha512-woaFpUJavYPiqRQ0Eh716jOHRZ7o84mPpmEPS79bBUJNDilGEj2OBSjbHV2ez4FYdVnEnlbg+rYy7sX3PwwENA==",
+      "tarballSha256": "93a82e7b2911211829afb212133339485dafaa757a7caccb64c72d596b6a3982",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@orpc/standard-server/LICENSE",
+          "evidence": "notices/@orpc/standard-server@1.15.4/package/LICENSE",
+          "sha256": "fa3f0d958e5affd642604f663e399794da28747018cdac1dafef2465ee7e07b0",
+          "bytes": 1060
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@orpc/standard-server-aws-lambda",
+      "name": "@orpc/standard-server-aws-lambda",
+      "version": "1.15.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@orpc/standard-server-aws-lambda/-/standard-server-aws-lambda-1.15.4.tgz",
+      "integrity": "sha512-Vq5nNhq/XSM3DPsI1MLEbMraP+++hb0btsS8IfdAj5eXTYvDzpTA5rZ+gMhhgnVuZvZcQbmBojTgtu41X8t4sA==",
+      "tarballSha256": "888fb4456a23c87546e4882729a0cb128105529b44534e389b517d388068358a",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@orpc/standard-server-aws-lambda/LICENSE",
+          "evidence": "notices/@orpc/standard-server-aws-lambda@1.15.4/package/LICENSE",
+          "sha256": "fa3f0d958e5affd642604f663e399794da28747018cdac1dafef2465ee7e07b0",
+          "bytes": 1060
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@orpc/standard-server-fastify",
+      "name": "@orpc/standard-server-fastify",
+      "version": "1.15.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@orpc/standard-server-fastify/-/standard-server-fastify-1.15.4.tgz",
+      "integrity": "sha512-OkBWAUQhtssTrfaV3FF8X/gdJL7otS1MvfTBuxKoRKpf6u7CQB9QpdY76OSg407N/hvN8wzSW2lSbhlKljOxkQ==",
+      "tarballSha256": "e6f1ac401381172a164f2a38e475e01cb6e37c7de61dd22b7152e6177ba8a174",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@orpc/standard-server-fastify/LICENSE",
+          "evidence": "notices/@orpc/standard-server-fastify@1.15.4/package/LICENSE",
+          "sha256": "fa3f0d958e5affd642604f663e399794da28747018cdac1dafef2465ee7e07b0",
+          "bytes": 1060
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@orpc/standard-server-fetch",
+      "name": "@orpc/standard-server-fetch",
+      "version": "1.15.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@orpc/standard-server-fetch/-/standard-server-fetch-1.15.4.tgz",
+      "integrity": "sha512-u6zQDx/tUgNUWDQstJMbWkCKsecp9j+4WHWoPmNNuk2PyRdD6FEmvJJs23CAKa5njKu2V8aMzuuL9AW3jechuw==",
+      "tarballSha256": "2fde7b0b5bceb5626e68d34666edce65e2ebcc3738d0e6281f021fbcd1efe00d",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@orpc/standard-server-fetch/LICENSE",
+          "evidence": "notices/@orpc/standard-server-fetch@1.15.4/package/LICENSE",
+          "sha256": "fa3f0d958e5affd642604f663e399794da28747018cdac1dafef2465ee7e07b0",
+          "bytes": 1060
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@orpc/standard-server-node",
+      "name": "@orpc/standard-server-node",
+      "version": "1.15.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@orpc/standard-server-node/-/standard-server-node-1.15.4.tgz",
+      "integrity": "sha512-is6T03n1y6nx+g9ve0ip+F1BXbnR104r3NEGVUcGmkuLCqtxqbXCCjyzJTXWwGArTdEcxDOT4cW/zx/EORGN0g==",
+      "tarballSha256": "bba99d054fb16e1893fd87cfaf96490a436417d8fd034e0d1ea8279799a73df5",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@orpc/standard-server-node/LICENSE",
+          "evidence": "notices/@orpc/standard-server-node@1.15.4/package/LICENSE",
+          "sha256": "fa3f0d958e5affd642604f663e399794da28747018cdac1dafef2465ee7e07b0",
+          "bytes": 1060
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@orpc/standard-server-peer",
+      "name": "@orpc/standard-server-peer",
+      "version": "1.15.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@orpc/standard-server-peer/-/standard-server-peer-1.15.4.tgz",
+      "integrity": "sha512-qWH7gf+8Iv2oXVIQZIQIvAyk2LYUHcj0CXF+AKF5WzHU22vJInD4FKbl8+UesVU+nT8O+BrVmOXzrQ40TqngpQ==",
+      "tarballSha256": "35697baf586d755485a85ce8196c259403e324a6148a6e6dcb31773c75e577e7",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@orpc/standard-server-peer/LICENSE",
+          "evidence": "notices/@orpc/standard-server-peer@1.15.4/package/LICENSE",
+          "sha256": "fa3f0d958e5affd642604f663e399794da28747018cdac1dafef2465ee7e07b0",
+          "bytes": 1060
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@phosphor-icons/react",
+      "name": "@phosphor-icons/react",
+      "version": "2.1.10",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@phosphor-icons/react/-/react-2.1.10.tgz",
+      "integrity": "sha512-vt8Tvq8GLjheAZZYa+YG/pW7HDbov8El/MANW8pOAz4eGxrwhnbfrQZq0Cp4q8zBEu8NIhHdnr+r8thnfRSNYA==",
+      "tarballSha256": "08027417baf5fc4818581a63c487c98ad36c80c17816a0069d4fd0805350ee90",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@phosphor-icons/react/LICENSE",
+          "evidence": "notices/@phosphor-icons/react@2.1.10/package/LICENSE",
+          "sha256": "6918b72504641180600cbbd4a86b0dfa9dfccf788775694325b71b9a029f6eb4",
+          "bytes": 1071
+        },
+        {
+          "artifactPath": "package/dist/csr/Copyright.es.js",
+          "installedPath": "/app/node_modules/@phosphor-icons/react/dist/csr/Copyright.es.js",
+          "evidence": "notices/@phosphor-icons/react@2.1.10/package/dist/csr/Copyright.es.js",
+          "sha256": "30e92f8d417156e2c3f867bfe8ecddaefa942f0e265602fd95091dbd4886c61c",
+          "bytes": 305
+        },
+        {
+          "artifactPath": "package/dist/defs/Copyright.es.js",
+          "installedPath": "/app/node_modules/@phosphor-icons/react/dist/defs/Copyright.es.js",
+          "evidence": "notices/@phosphor-icons/react@2.1.10/package/dist/defs/Copyright.es.js",
+          "sha256": "41b85edab0ce43c343109ae70d7397297497959a05ac20d8844c2b435e62b14f",
+          "bytes": 2296
+        },
+        {
+          "artifactPath": "package/dist/ssr/Copyright.es.js",
+          "installedPath": "/app/node_modules/@phosphor-icons/react/dist/ssr/Copyright.es.js",
+          "evidence": "notices/@phosphor-icons/react@2.1.10/package/dist/ssr/Copyright.es.js",
+          "sha256": "f37b1c16b366d1416cb7a8a2f03a7037d45a919a722b4f3fb91cbac084af7fa6",
+          "bytes": 304
+        },
+        {
+          "artifactPath": "package/dist/csr/Copyright.d.ts",
+          "installedPath": "/app/node_modules/@phosphor-icons/react/dist/csr/Copyright.d.ts",
+          "evidence": "notices/@phosphor-icons/react@2.1.10/package/dist/csr/Copyright.d.ts",
+          "sha256": "d59ca233e5c37a734e7ddeb14073c661b571a005b65d291bcc7a70c578bc3483",
+          "bytes": 3709
+        },
+        {
+          "artifactPath": "package/dist/defs/Copyright.d.ts",
+          "installedPath": "/app/node_modules/@phosphor-icons/react/dist/defs/Copyright.d.ts",
+          "evidence": "notices/@phosphor-icons/react@2.1.10/package/dist/defs/Copyright.d.ts",
+          "sha256": "29df7754beffda9d321e8874bc6e3c76c132d325e79e7a81bbd88928638b12fa",
+          "bytes": 207
+        },
+        {
+          "artifactPath": "package/dist/ssr/Copyright.d.ts",
+          "installedPath": "/app/node_modules/@phosphor-icons/react/dist/ssr/Copyright.d.ts",
+          "evidence": "notices/@phosphor-icons/react@2.1.10/package/dist/ssr/Copyright.d.ts",
+          "sha256": "d59ca233e5c37a734e7ddeb14073c661b571a005b65d291bcc7a70c578bc3483",
+          "bytes": 3709
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@reduxjs/toolkit",
+      "name": "@reduxjs/toolkit",
+      "version": "2.13.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-2.13.0.tgz",
+      "integrity": "sha512-f6jwVRfwW30+tnllz4YcsHHpPYYOE7abcHkyUCovD+P7DyhdAI5prz2Fh/8TLhakjpN+7aIEion1s5L/tvlYlA==",
+      "tarballSha256": "e0df14df13e2f4ab687f21a1a4222b3a1b7c242741a501f2009fc06c9c6baa44",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@reduxjs/toolkit/LICENSE",
+          "evidence": "notices/@reduxjs/toolkit@2.13.0/package/LICENSE",
+          "sha256": "49784961ec6c4941437b7a2c54d8977d0528076a9e7c73dd40f7d0942b8f106d",
+          "bytes": 1069
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@stablemates/workhorse",
+      "name": "@stablemates/workhorse",
+      "version": "0.6.1",
+      "declaredLicense": "Apache-2.0",
+      "lockLicense": "Apache-2.0",
+      "tarball": "https://registry.npmjs.org/@stablemates/workhorse/-/workhorse-0.6.1.tgz",
+      "integrity": "sha512-7b+DI9i4TfZOS6YOdYn9rhiudy9wWBqkhF/FJkEh8IiYjspyUm10Ht/kLI+wF8COWQP/4Gox9948gfQdCt6kNw==",
+      "tarballSha256": "3337abc4c15522dbb7575ba245478c7077e47dd2302caae8ee5a790929019222",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@stablemates/workhorse/LICENSE",
+          "evidence": "notices/@stablemates/workhorse@0.6.1/package/LICENSE",
+          "sha256": "1eecc854fa60aaa1e845976033bb48b7cfca8322c7ffae6b543fbe45818c25ca",
+          "bytes": 11341
+        },
+        {
+          "artifactPath": "package/NOTICE",
+          "installedPath": "/app/node_modules/@stablemates/workhorse/NOTICE",
+          "evidence": "notices/@stablemates/workhorse@0.6.1/package/NOTICE",
+          "sha256": "164983c64714a20139cfa5516d0f3a1c9a82ec0e37010bc015ede4dd18857b13",
+          "bytes": 216
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@stablemates/workhorse-dashboard",
+      "name": "@stablemates/workhorse-dashboard",
+      "version": "0.6.1",
+      "declaredLicense": "Apache-2.0",
+      "lockLicense": "Apache-2.0",
+      "tarball": "https://registry.npmjs.org/@stablemates/workhorse-dashboard/-/workhorse-dashboard-0.6.1.tgz",
+      "integrity": "sha512-hY7L8gnZ5SqqpYiaihXyKYZvmqzBdhhuUbiyVGza1VgUqANTfGeGJUhmlJ+WvQlvuIX+SJaxJwqaXgY4aZsCbA==",
+      "tarballSha256": "f5754941ae85a5d9faf1615aa5dffde6c99c5a776ad010f69c2097ec3870ebe6",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@stablemates/workhorse-dashboard/LICENSE",
+          "evidence": "notices/@stablemates/workhorse-dashboard@0.6.1/package/LICENSE",
+          "sha256": "1eecc854fa60aaa1e845976033bb48b7cfca8322c7ffae6b543fbe45818c25ca",
+          "bytes": 11341
+        },
+        {
+          "artifactPath": "package/NOTICE",
+          "installedPath": "/app/node_modules/@stablemates/workhorse-dashboard/NOTICE",
+          "evidence": "notices/@stablemates/workhorse-dashboard@0.6.1/package/NOTICE",
+          "sha256": "164983c64714a20139cfa5516d0f3a1c9a82ec0e37010bc015ede4dd18857b13",
+          "bytes": 216
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@stablemates/workhorse-dashboard-contract",
+      "name": "@stablemates/workhorse-dashboard-contract",
+      "version": "0.6.1",
+      "declaredLicense": "Apache-2.0",
+      "lockLicense": "Apache-2.0",
+      "tarball": "https://registry.npmjs.org/@stablemates/workhorse-dashboard-contract/-/workhorse-dashboard-contract-0.6.1.tgz",
+      "integrity": "sha512-nWyqmYKfG2Iqr+37eB+ZxwokjOR7N/iOHOd3RBYeyqV+XrjREz8JOgl4rVo/22aa29ROowcRaaZFdvISiuttVQ==",
+      "tarballSha256": "b433a486d1aaff05242982d775b619f9c5e48fcdce3f9ce54077708bf579b1b0",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@stablemates/workhorse-dashboard-contract/LICENSE",
+          "evidence": "notices/@stablemates/workhorse-dashboard-contract@0.6.1/package/LICENSE",
+          "sha256": "1eecc854fa60aaa1e845976033bb48b7cfca8322c7ffae6b543fbe45818c25ca",
+          "bytes": 11341
+        },
+        {
+          "artifactPath": "package/NOTICE",
+          "installedPath": "/app/node_modules/@stablemates/workhorse-dashboard-contract/NOTICE",
+          "evidence": "notices/@stablemates/workhorse-dashboard-contract@0.6.1/package/NOTICE",
+          "sha256": "164983c64714a20139cfa5516d0f3a1c9a82ec0e37010bc015ede4dd18857b13",
+          "bytes": 216
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@stablemates/workhorse-dashboard-server",
+      "name": "@stablemates/workhorse-dashboard-server",
+      "version": "0.6.1",
+      "declaredLicense": "Apache-2.0",
+      "lockLicense": "Apache-2.0",
+      "tarball": "https://registry.npmjs.org/@stablemates/workhorse-dashboard-server/-/workhorse-dashboard-server-0.6.1.tgz",
+      "integrity": "sha512-83jv1miV4FjOk2etBmChNgVGEeVgRKlraKgZ+zUN+YrQi6JAUgWYuakOIa5ZfrQ1T1S5jGFgihbXpB8Sh2e//w==",
+      "tarballSha256": "1ab41b26b238e2cc38f58f303802298ef352d8acdb34c3660325158348a36194",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@stablemates/workhorse-dashboard-server/LICENSE",
+          "evidence": "notices/@stablemates/workhorse-dashboard-server@0.6.1/package/LICENSE",
+          "sha256": "1eecc854fa60aaa1e845976033bb48b7cfca8322c7ffae6b543fbe45818c25ca",
+          "bytes": 11341
+        },
+        {
+          "artifactPath": "package/NOTICE",
+          "installedPath": "/app/node_modules/@stablemates/workhorse-dashboard-server/NOTICE",
+          "evidence": "notices/@stablemates/workhorse-dashboard-server@0.6.1/package/NOTICE",
+          "sha256": "164983c64714a20139cfa5516d0f3a1c9a82ec0e37010bc015ede4dd18857b13",
+          "bytes": 216
+        },
+        {
+          "artifactPath": "package/dist/app/THIRD_PARTY_NOTICES.txt",
+          "installedPath": "/app/node_modules/@stablemates/workhorse-dashboard-server/dist/app/THIRD_PARTY_NOTICES.txt",
+          "evidence": "notices/@stablemates/workhorse-dashboard-server@0.6.1/package/dist/app/THIRD_PARTY_NOTICES.txt",
+          "sha256": "861533fc8246cc90c66d7b237203c4025345f00c0902936ee2e635dc64e141c6",
+          "bytes": 63426
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@standard-schema/spec",
+      "name": "@standard-schema/spec",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz",
+      "integrity": "sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==",
+      "tarballSha256": "a7cb7268be280ab518d450f8c3b07c86f23417225c0ab53691ed59b3067cceaf",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@standard-schema/spec/LICENSE",
+          "evidence": "notices/@standard-schema/spec@1.1.0/package/LICENSE",
+          "sha256": "653b779005a3a4d64a7288c940f7b9a0e8f0b1e0375f6aa6af9473caf131e564",
+          "bytes": 1071
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@standard-schema/utils",
+      "name": "@standard-schema/utils",
+      "version": "0.3.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@standard-schema/utils/-/utils-0.3.0.tgz",
+      "integrity": "sha512-e7Mew686owMaPJVNNLs55PUvgz371nKgwsc4vxE49zsODpJEnxgxRo2y/OKrqueavXgZNMDVj3DdHFlaSAeU8g==",
+      "tarballSha256": "b3dc5850b2debe2ef2eda131c6aa0e5c2528cb766130e144d72343298abe4adc",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/@standard-schema/utils/LICENSE",
+          "evidence": "notices/@standard-schema/utils@0.3.0/package/LICENSE",
+          "sha256": "9cf2166507311f427e083ef7671da566949391cb745789abcff8bd43ac26d1f1",
+          "bytes": 1069
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@types/d3-array",
+      "name": "@types/d3-array",
+      "version": "3.2.2",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@types/d3-array/-/d3-array-3.2.2.tgz",
+      "integrity": "sha512-hOLWVbm7uRza0BYXpIIW5pxfrKe0W+D5lrFiAEYR+pb6w3N2SwSMaJbXdUfSEv+dT4MfHBLtn5js0LAWaO6otw==",
+      "tarballSha256": "a08744f78ca2ffc4ce3fbdbedb17db9fac85dd1d3d67e33800e2e2d0859da0a0",
+      "notices": [
+        {
+          "artifactPath": "d3-array/LICENSE",
+          "installedPath": "/app/node_modules/@types/d3-array/LICENSE",
+          "evidence": "notices/@types/d3-array@3.2.2/d3-array/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@types/d3-color",
+      "name": "@types/d3-color",
+      "version": "3.1.3",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@types/d3-color/-/d3-color-3.1.3.tgz",
+      "integrity": "sha512-iO90scth9WAbmgv7ogoq57O9YpKmFBbmoEoCHDB2xMBY0+/KVrqAaCDyCE16dUspeOvIxFFRI+0sEtqDqy2b4A==",
+      "tarballSha256": "ca73ea290f4a58c9ae961e0abb5c6a42d7c90cc720cd855758d4b1b636ff6792",
+      "notices": [
+        {
+          "artifactPath": "d3-color/LICENSE",
+          "installedPath": "/app/node_modules/@types/d3-color/LICENSE",
+          "evidence": "notices/@types/d3-color@3.1.3/d3-color/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@types/d3-ease",
+      "name": "@types/d3-ease",
+      "version": "3.0.2",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@types/d3-ease/-/d3-ease-3.0.2.tgz",
+      "integrity": "sha512-NcV1JjO5oDzoK26oMzbILE6HW7uVXOHLQvHshBUW4UMdZGfiY6v5BeQwh9a9tCzv+CeefZQHJt5SRgK154RtiA==",
+      "tarballSha256": "774af5b0978c27bea8048512a103da7ccae1f74dbd45abc066cd6bd2015922cd",
+      "notices": [
+        {
+          "artifactPath": "d3-ease/LICENSE",
+          "installedPath": "/app/node_modules/@types/d3-ease/LICENSE",
+          "evidence": "notices/@types/d3-ease@3.0.2/d3-ease/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@types/d3-interpolate",
+      "name": "@types/d3-interpolate",
+      "version": "3.0.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@types/d3-interpolate/-/d3-interpolate-3.0.4.tgz",
+      "integrity": "sha512-mgLPETlrpVV1YRJIglr4Ez47g7Yxjl1lj7YKsiMCb27VJH9W8NVM6Bb9d8kkpG/uAQS5AmbA48q2IAolKKo1MA==",
+      "tarballSha256": "1600127c3e338461c6fa93fb88f5438151041f56ec4b40cdbb07c0ab3e5c4217",
+      "notices": [
+        {
+          "artifactPath": "d3-interpolate/LICENSE",
+          "installedPath": "/app/node_modules/@types/d3-interpolate/LICENSE",
+          "evidence": "notices/@types/d3-interpolate@3.0.4/d3-interpolate/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@types/d3-path",
+      "name": "@types/d3-path",
+      "version": "3.1.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@types/d3-path/-/d3-path-3.1.1.tgz",
+      "integrity": "sha512-VMZBYyQvbGmWyWVea0EHs/BwLgxc+MKi1zLDCONksozI4YJMcTt8ZEuIR4Sb1MMTE8MMW49v0IwI5+b7RmfWlg==",
+      "tarballSha256": "183820edea912d644ccfee38570482991eacc7fec71a93fe793d2e75d06c368f",
+      "notices": [
+        {
+          "artifactPath": "d3-path/LICENSE",
+          "installedPath": "/app/node_modules/@types/d3-path/LICENSE",
+          "evidence": "notices/@types/d3-path@3.1.1/d3-path/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@types/d3-scale",
+      "name": "@types/d3-scale",
+      "version": "4.0.9",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@types/d3-scale/-/d3-scale-4.0.9.tgz",
+      "integrity": "sha512-dLmtwB8zkAeO/juAMfnV+sItKjlsw2lKdZVVy6LRr0cBmegxSABiLEpGVmSJJ8O08i4+sGR6qQtb6WtuwJdvVw==",
+      "tarballSha256": "0b14f6c961064f7890e02991393f88bf35b804737f844da73083535dd0c5c13c",
+      "notices": [
+        {
+          "artifactPath": "d3-scale/LICENSE",
+          "installedPath": "/app/node_modules/@types/d3-scale/LICENSE",
+          "evidence": "notices/@types/d3-scale@4.0.9/d3-scale/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@types/d3-shape",
+      "name": "@types/d3-shape",
+      "version": "3.2.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@types/d3-shape/-/d3-shape-3.2.0.tgz",
+      "integrity": "sha512-kVd74ta9eof3eJOvbNd1vGKS/XERRyQbT26Og63hIsvDO84cjD5gEOhsXf26w3FSoNlPVz84DOFcKv/oou+fMw==",
+      "tarballSha256": "26b30bf38b74ea54a2baa95c30d641dbf2fc5e2fed27bab4313ff5c1770c59cb",
+      "notices": [
+        {
+          "artifactPath": "d3-shape/LICENSE",
+          "installedPath": "/app/node_modules/@types/d3-shape/LICENSE",
+          "evidence": "notices/@types/d3-shape@3.2.0/d3-shape/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@types/d3-time",
+      "name": "@types/d3-time",
+      "version": "3.0.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@types/d3-time/-/d3-time-3.0.4.tgz",
+      "integrity": "sha512-yuzZug1nkAAaBlBBikKZTgzCeA+k1uy4ZFwWANOfKw5z5LRhV0gNA7gNkKm7HoK+HRN0wX3EkxGk0fpbWhmB7g==",
+      "tarballSha256": "5094327f228e2a2d010edb087b920b87a1363fedd2a7836ab012589a8231d313",
+      "notices": [
+        {
+          "artifactPath": "d3-time/LICENSE",
+          "installedPath": "/app/node_modules/@types/d3-time/LICENSE",
+          "evidence": "notices/@types/d3-time@3.0.4/d3-time/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@types/d3-timer",
+      "name": "@types/d3-timer",
+      "version": "3.0.2",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@types/d3-timer/-/d3-timer-3.0.2.tgz",
+      "integrity": "sha512-Ps3T8E8dZDam6fUyNiMkekK3XUsaUEik+idO9/YjPtfj2qruF8tFBXS7XhtE4iIXBLxhmLjP3SXpLhVf21I9Lw==",
+      "tarballSha256": "ecb68f05d34ecabb443cf14de5ef9ab675d5f32f3e6dcadda25ae9191cf5b7ad",
+      "notices": [
+        {
+          "artifactPath": "d3-timer/LICENSE",
+          "installedPath": "/app/node_modules/@types/d3-timer/LICENSE",
+          "evidence": "notices/@types/d3-timer@3.0.2/d3-timer/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@types/node",
+      "name": "@types/node",
+      "version": "26.6.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@types/node/-/node-26.6.4.tgz",
+      "integrity": "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg==",
+      "tarballSha256": "bf2dbf11cfccd34681fc4d5e4d150afce77fd6610224757dbe6c92c8e5149700",
+      "notices": [
+        {
+          "artifactPath": "node/LICENSE",
+          "installedPath": "/app/node_modules/@types/node/LICENSE",
+          "evidence": "notices/@types/node@26.6.4/node/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@types/pg",
+      "name": "@types/pg",
+      "version": "8.23.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@types/pg/-/pg-8.23.1.tgz",
+      "integrity": "sha512-fKVHpikPdg4GKks3JuLEhvwSyvwzF23hnabPy6DD8ljVbC7+6J5dQzdv4arV6jqq57djnMgs1HKBxX4P8aBI3A==",
+      "tarballSha256": "f8e5fab1d222a3475d6c481ae85446d165b28f24f2ce05b170e7edc880b34ddc",
+      "notices": [
+        {
+          "artifactPath": "pg/LICENSE",
+          "installedPath": "/app/node_modules/@types/pg/LICENSE",
+          "evidence": "notices/@types/pg@8.23.1/pg/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/@types/use-sync-external-store",
+      "name": "@types/use-sync-external-store",
+      "version": "0.0.6",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/@types/use-sync-external-store/-/use-sync-external-store-0.0.6.tgz",
+      "integrity": "sha512-zFDAD+tlpf2r4asuHEj0XH6pY6i0g5NeAHPn+15wk3BV6JA69eERFXC1gyGThDkVa1zCyKr5jox1+2LbV/AMLg==",
+      "tarballSha256": "cb5d9d0fdab3037ebb6a035f3de4f14376310e41449a5b519aff8a198eae5357",
+      "notices": [
+        {
+          "artifactPath": "use-sync-external-store/LICENSE",
+          "installedPath": "/app/node_modules/@types/use-sync-external-store/LICENSE",
+          "evidence": "notices/@types/use-sync-external-store@0.0.6/use-sync-external-store/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/ajv",
+      "name": "ajv",
+      "version": "8.20.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/ajv/-/ajv-8.20.0.tgz",
+      "integrity": "sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==",
+      "tarballSha256": "b2f0b3a893bbb8cc5efb6814f08b1499e19e31d5dd73683f5893382f48f6e7b3",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/ajv/LICENSE",
+          "evidence": "notices/ajv@8.20.0/package/LICENSE",
+          "sha256": "a05350a88e318e4f5f2c2a1ff1e2e88daa4dd38e6e78b71cccae422bdc762cc3",
+          "bytes": 1090
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/clsx",
+      "name": "clsx",
+      "version": "2.1.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz",
+      "integrity": "sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==",
+      "tarballSha256": "6320104b491ca645120e8f99589ce663ff1fb337ba80066719a011bd95320303",
+      "notices": [
+        {
+          "artifactPath": "package/license",
+          "installedPath": "/app/node_modules/clsx/license",
+          "evidence": "notices/clsx@2.1.1/package/license",
+          "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97",
+          "bytes": 1104
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/cookie",
+      "name": "cookie",
+      "version": "1.1.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz",
+      "integrity": "sha512-ei8Aos7ja0weRpFzJnEA9UHJ/7XQmqglbRwnf2ATjcB9Wq874VKH9kfjjirM6UhU2/E5fFYadylyhFldcqSidQ==",
+      "tarballSha256": "0e9342b066986722098d9b108b238033862eae90b3d53ff90581538264d91b60",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/cookie/LICENSE",
+          "evidence": "notices/cookie@1.1.1/package/LICENSE",
+          "sha256": "c02110eedc16c7114f1a9bdc026c65626ce1d9c7e27fd51a8e0feee8a48a6858",
+          "bytes": 1175
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/csstype",
+      "name": "csstype",
+      "version": "3.2.3",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz",
+      "integrity": "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==",
+      "tarballSha256": "f3501f8ee1c73f7568fecb22c11231162c0467e59262461da5579519307427a3",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/csstype/LICENSE",
+          "evidence": "notices/csstype@3.2.3/package/LICENSE",
+          "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e",
+          "bytes": 1062
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/d3-array",
+      "name": "d3-array",
+      "version": "3.2.4",
+      "declaredLicense": "ISC",
+      "lockLicense": "ISC",
+      "tarball": "https://registry.npmjs.org/d3-array/-/d3-array-3.2.4.tgz",
+      "integrity": "sha512-tdQAmyA18i4J7wprpYq8ClcxZy3SC31QMeByyCFyRt7BVHdREQZ5lpzoe5mFEYZUWe+oq8HBvk9JjpibyEV4Jg==",
+      "tarballSha256": "6dbf3f2be39e48f86775be6e166a5d3e5a585ca7144453cd6ad1912f5ae4417f",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/d3-array/LICENSE",
+          "evidence": "notices/d3-array@3.2.4/package/LICENSE",
+          "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4",
+          "bytes": 731
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/d3-color",
+      "name": "d3-color",
+      "version": "3.1.0",
+      "declaredLicense": "ISC",
+      "lockLicense": "ISC",
+      "tarball": "https://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz",
+      "integrity": "sha512-zg/chbXyeBtMQ1LbD/WSoW2DpC3I0mpmPdW+ynRTj/x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA==",
+      "tarballSha256": "d41bbcd99dd4f00e696546bffc73fed9b8fb6c3354905b6ea1721bff25f33b42",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/d3-color/LICENSE",
+          "evidence": "notices/d3-color@3.1.0/package/LICENSE",
+          "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884",
+          "bytes": 731
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/d3-ease",
+      "name": "d3-ease",
+      "version": "3.0.1",
+      "declaredLicense": "BSD-3-Clause",
+      "lockLicense": "BSD-3-Clause",
+      "tarball": "https://registry.npmjs.org/d3-ease/-/d3-ease-3.0.1.tgz",
+      "integrity": "sha512-wR/XK3D3XcLIZwpbvQwQ5fK+8Ykds1ip7A2Txe0yxncXSdq1L9skcG7blcedkOX+ZcgxGAmLX1FrRGbADwzi0w==",
+      "tarballSha256": "b249afe4aa8b741beeaf2d14f625ccf49270adb645e3f1c755d11476c1fdbe2a",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/d3-ease/LICENSE",
+          "evidence": "notices/d3-ease@3.0.1/package/LICENSE",
+          "sha256": "b989d9085148d21ff64a75e14462aefa06b2589a55553b07b1460c70081c7d08",
+          "bytes": 1504
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/d3-format",
+      "name": "d3-format",
+      "version": "3.1.2",
+      "declaredLicense": "ISC",
+      "lockLicense": "ISC",
+      "tarball": "https://registry.npmjs.org/d3-format/-/d3-format-3.1.2.tgz",
+      "integrity": "sha512-AJDdYOdnyRDV5b6ArilzCPPwc1ejkHcoyFarqlPqT7zRYjhavcT3uSrqcMvsgh2CgoPbK3RCwyHaVyxYcP2Arg==",
+      "tarballSha256": "5bc80e685f5707846d9405e8fd7aec4425960d83cc98200bb94d64d6e6f63c10",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/d3-format/LICENSE",
+          "evidence": "notices/d3-format@3.1.2/package/LICENSE",
+          "sha256": "2a6d2d5f32ba0b755ddbc1c833f766e30cdbe6ebe9a6d4e3e24427721f0b63d3",
+          "bytes": 731
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/d3-interpolate",
+      "name": "d3-interpolate",
+      "version": "3.0.1",
+      "declaredLicense": "ISC",
+      "lockLicense": "ISC",
+      "tarball": "https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz",
+      "integrity": "sha512-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2+L9vBKEHJ2Rg+viTR7o5Mmv5mZcieN+FRYaAOWX5SJATX6k1PWz72g==",
+      "tarballSha256": "7e8df78d233cd102a0bb518658dc0b7d5c38442b6f2dbc8b95ffc14ba87c7c33",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/d3-interpolate/LICENSE",
+          "evidence": "notices/d3-interpolate@3.0.1/package/LICENSE",
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+          "bytes": 731
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/d3-path",
+      "name": "d3-path",
+      "version": "3.1.0",
+      "declaredLicense": "ISC",
+      "lockLicense": "ISC",
+      "tarball": "https://registry.npmjs.org/d3-path/-/d3-path-3.1.0.tgz",
+      "integrity": "sha512-p3KP5HCf/bvjBSSKuXid6Zqijx7wIfNW+J/maPs+iwR35at5JCbLUT0LzF1cnjbCHWhqzQTIN2Jpe8pRebIEFQ==",
+      "tarballSha256": "94e9b69f82f113ed4ada36703c05f6b7406723c55affe2a443d69729d6d5da14",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/d3-path/LICENSE",
+          "evidence": "notices/d3-path@3.1.0/package/LICENSE",
+          "sha256": "a09b0d6d76e768fca2085fad05743ee81ddd11946bcda160a3cf5e1081a479aa",
+          "bytes": 731
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/d3-scale",
+      "name": "d3-scale",
+      "version": "4.0.2",
+      "declaredLicense": "ISC",
+      "lockLicense": "ISC",
+      "tarball": "https://registry.npmjs.org/d3-scale/-/d3-scale-4.0.2.tgz",
+      "integrity": "sha512-GZW464g1SH7ag3Y7hXjf8RoUuAFIqklOAq3MRl4OaWabTFJY9PN/E1YklhXLh+OQ3fM9yS2nOkCoS+WLZ6kvxQ==",
+      "tarballSha256": "bf50a1f34ba0e6fa25cb7ae902abe0b9e2f85ced39fdca7b18fbe863fbaa39a7",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/d3-scale/LICENSE",
+          "evidence": "notices/d3-scale@4.0.2/package/LICENSE",
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+          "bytes": 731
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/d3-shape",
+      "name": "d3-shape",
+      "version": "3.2.0",
+      "declaredLicense": "ISC",
+      "lockLicense": "ISC",
+      "tarball": "https://registry.npmjs.org/d3-shape/-/d3-shape-3.2.0.tgz",
+      "integrity": "sha512-SaLBuwGm3MOViRq2ABk3eLoxwZELpH6zhl3FbAoJ7Vm1gofKx6El1Ib5z23NUEhF9AsGl7y+dzLe5Cw2AArGTA==",
+      "tarballSha256": "8b4b2bc9daa99a957abe17656c5944fd3f28efb88f788e6b4fdba346cb80e602",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/d3-shape/LICENSE",
+          "evidence": "notices/d3-shape@3.2.0/package/LICENSE",
+          "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884",
+          "bytes": 731
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/d3-time",
+      "name": "d3-time",
+      "version": "3.1.0",
+      "declaredLicense": "ISC",
+      "lockLicense": "ISC",
+      "tarball": "https://registry.npmjs.org/d3-time/-/d3-time-3.1.0.tgz",
+      "integrity": "sha512-VqKjzBLejbSMT4IgbmVgDjpkYrNWUYJnbCGo874u7MMKIWsILRX+OpX/gTk8MqjpT1A/c6HY2dCA77ZN0lkQ2Q==",
+      "tarballSha256": "a9f2c8e177b76e7068e7c9c77722c4924c71c9e54f9b1e245d27ef11b28dbc08",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/d3-time/LICENSE",
+          "evidence": "notices/d3-time@3.1.0/package/LICENSE",
+          "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884",
+          "bytes": 731
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/d3-time-format",
+      "name": "d3-time-format",
+      "version": "4.1.0",
+      "declaredLicense": "ISC",
+      "lockLicense": "ISC",
+      "tarball": "https://registry.npmjs.org/d3-time-format/-/d3-time-format-4.1.0.tgz",
+      "integrity": "sha512-dJxPBlzC7NugB2PDLwo9Q8JiTR3M3e4/XANkreKSUxF8vvXKqm1Yfq4Q5dl8budlunRVlUUaDUgFt7eA8D6NLg==",
+      "tarballSha256": "46f1492ef6be8afe04a844876a644a4a964da7f87937e90e93f9585acff9d30e",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/d3-time-format/LICENSE",
+          "evidence": "notices/d3-time-format@4.1.0/package/LICENSE",
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+          "bytes": 731
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/d3-timer",
+      "name": "d3-timer",
+      "version": "3.0.1",
+      "declaredLicense": "ISC",
+      "lockLicense": "ISC",
+      "tarball": "https://registry.npmjs.org/d3-timer/-/d3-timer-3.0.1.tgz",
+      "integrity": "sha512-ndfJ/JxxMd3nw31uyKoY2naivF+r29V+Lc0svZxe1JvvIRmi8hUsrMvdOwgS1o6uBHmiz91geQ0ylPP0aj1VUA==",
+      "tarballSha256": "05cdf901e1876a7f24f4c365a879252752e22e3cc52b131ca616639f07e8ed05",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/d3-timer/LICENSE",
+          "evidence": "notices/d3-timer@3.0.1/package/LICENSE",
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+          "bytes": 731
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/decimal.js-light",
+      "name": "decimal.js-light",
+      "version": "2.5.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/decimal.js-light/-/decimal.js-light-2.5.1.tgz",
+      "integrity": "sha512-qIMFpTMZmny+MMIitAB6D7iVPEorVw6YQRWkvarTkT4tBeSLLiHzcwj6q0MmYSFCiVpiqPJTJEYIrpcPzVEIvg==",
+      "tarballSha256": "8787a0a31cffb73b5ae183a6c2567704c915ee2ae67a57876f640dd8d3c6e9c1",
+      "notices": [
+        {
+          "artifactPath": "package/LICENCE.md",
+          "installedPath": "/app/node_modules/decimal.js-light/LICENCE.md",
+          "evidence": "notices/decimal.js-light@2.5.1/package/LICENCE.md",
+          "sha256": "fc0397fbd5c128bec7edef4e8d3f45e15db5fd043cdd0a2edfc4f14d47fbc3e4",
+          "bytes": 1110,
+          "grantLocation": "Dedicated license"
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/detect-node-es",
+      "name": "detect-node-es",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/detect-node-es/-/detect-node-es-1.1.0.tgz",
+      "integrity": "sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ==",
+      "tarballSha256": "bc0bc6ee6c25bfd3db4e44dbaa210011dc5a1937a381bbbd92ad857bf5183678",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/detect-node-es/LICENSE",
+          "evidence": "notices/detect-node-es@1.1.0/package/LICENSE",
+          "sha256": "54b32293ea560d22cd9b62af9b2cda1a030d910a48c6601d227c5ff2338d95f8",
+          "bytes": 1068
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/dom-helpers",
+      "name": "dom-helpers",
+      "version": "5.2.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/dom-helpers/-/dom-helpers-5.2.1.tgz",
+      "integrity": "sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==",
+      "tarballSha256": "8391d72aaa505137d4db8701c3331197cf0cb0e7346d0fab0750a7d55443c89a",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/dom-helpers/LICENSE",
+          "evidence": "notices/dom-helpers@5.2.1/package/LICENSE",
+          "sha256": "1b0a9ba95a67bc484e028b13c61b83fc5aa1ca7957d1e2d43c2b0f70d9e9dd45",
+          "bytes": 1078
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/es-toolkit",
+      "name": "es-toolkit",
+      "version": "1.52.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/es-toolkit/-/es-toolkit-1.52.0.tgz",
+      "integrity": "sha512-XTNEJQh1tY1ZJVcf6ayP/2n4ZPyaHlW2FWs7xvw5ddPuhUVjLD3olQVQS7kf58JbAB48iL0uL/jerTrjtV3lDA==",
+      "tarballSha256": "53dc1473d25c8bfca5a2f85a3afe48c7a9c27162c8f99b2708349bb69c5a12c0",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/es-toolkit/LICENSE",
+          "evidence": "notices/es-toolkit@1.52.0/package/LICENSE",
+          "sha256": "51f3674294d988d89dbebd31273baaeb3c697a15482d9699b14d1fded2e132a7",
+          "bytes": 1077
+        },
+        {
+          "artifactPath": "package/NOTICE",
+          "installedPath": "/app/node_modules/es-toolkit/NOTICE",
+          "evidence": "notices/es-toolkit@1.52.0/package/NOTICE",
+          "sha256": "11ee5e3bce9b0a4dde7f73811caf98978e710228d891c3111ad8ef8d7d2a916f",
+          "bytes": 1698
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/eventemitter3",
+      "name": "eventemitter3",
+      "version": "5.0.4",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/eventemitter3/-/eventemitter3-5.0.4.tgz",
+      "integrity": "sha512-mlsTRyGaPBjPedk6Bvw+aqbsXDtoAyAzm5MO7JgU+yVRyMQ5O8bD4Kcci7BS85f93veegeCPkL8R4GLClnjLFw==",
+      "tarballSha256": "21d4a36175672b9e6640c39a68613af73f9a4c47a4a4da39993e8cd085564eb6",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/eventemitter3/LICENSE",
+          "evidence": "notices/eventemitter3@5.0.4/package/LICENSE",
+          "sha256": "3aecc12b1cb28832b5f65ab64291de96568c3f236a74d646281b4491f7bcadbf",
+          "bytes": 1082
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/fast-deep-equal",
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz",
+      "integrity": "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==",
+      "tarballSha256": "b019a0980f27638dc3f85836b0e478f188e00d7a6e5852c0819fa86f56e47b8f",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/fast-deep-equal/LICENSE",
+          "evidence": "notices/fast-deep-equal@3.1.3/package/LICENSE",
+          "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+          "bytes": 1074
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/fast-uri",
+      "name": "fast-uri",
+      "version": "3.1.8",
+      "declaredLicense": "BSD-3-Clause",
+      "lockLicense": "BSD-3-Clause",
+      "tarball": "https://registry.npmjs.org/fast-uri/-/fast-uri-3.1.8.tgz",
+      "integrity": "sha512-GZMtZUTNRpOVIECoXwLNZS5xUGE+mVNbTB8h/7Rwh2TFWcBQiPzTgyZi05BF9UMZKkLJv8XBRJTlU7zg8+ZfMg==",
+      "tarballSha256": "86be033b406a7737c0521edc8fe3e15c7ac0cb6b5e509478cc9539a2efaa086c",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/fast-uri/LICENSE",
+          "evidence": "notices/fast-uri@3.1.8/package/LICENSE",
+          "sha256": "b010b0dfdfdb23d7396e03b82cd4621fc9bb8f95d6b0aea70b9c24e12074c786",
+          "bytes": 1813
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/get-nonce",
+      "name": "get-nonce",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/get-nonce/-/get-nonce-1.0.1.tgz",
+      "integrity": "sha512-FJhYRoDaiatfEkUK8HKlicmu/3SGFD51q3itKDGoSTysQJBnfOcxU5GxnhE1E6soB76MbT0MBtnKJuXyAx+96Q==",
+      "tarballSha256": "943112eb62102f2ef56bad6eb50a3fe12bc0b386da0893614d81c735baa05897",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/get-nonce/LICENSE",
+          "evidence": "notices/get-nonce@1.0.1/package/LICENSE",
+          "sha256": "acf3b087b348d2f2e731b9d4131af185aad694c1204ce14a46909483fd42da05",
+          "bytes": 1071
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/immer",
+      "name": "immer",
+      "version": "11.1.18",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/immer/-/immer-11.1.18.tgz",
+      "integrity": "sha512-EQyQtLiYW029lyoczMl/Hh4Xu7cDecSc58JRYpHyL4tIAu3eqd1yJzQX04d2BZHDkzFFvm6qJEJWOtfDSWAXbQ==",
+      "tarballSha256": "681456111ff0f2971f3efac9904942d7b7aa267f468ccdd1a3a018fdce8f0280",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/immer/LICENSE",
+          "evidence": "notices/immer@11.1.18/package/LICENSE",
+          "sha256": "99cf22f6960a6fe228ec84ea9aefb0d75b27999ece83a3a9801e1c2081fa270b",
+          "bytes": 1074
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/internmap",
+      "name": "internmap",
+      "version": "2.0.3",
+      "declaredLicense": "ISC",
+      "lockLicense": "ISC",
+      "tarball": "https://registry.npmjs.org/internmap/-/internmap-2.0.3.tgz",
+      "integrity": "sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg==",
+      "tarballSha256": "39d1936831a4d3f2bd6e088db28a10de4458d823f652c36b2c808bf5b978c48d",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/internmap/LICENSE",
+          "evidence": "notices/internmap@2.0.3/package/LICENSE",
+          "sha256": "9ea8903938dab5f12c4572d60725069bec2d1b0dc3bcc210b09bae946a5ebb1f",
+          "bytes": 726
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/js-tokens",
+      "name": "js-tokens",
+      "version": "4.0.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz",
+      "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+      "tarballSha256": "d884c7a2d8adb5568c1272d92b4f9c62707f4226cf9e7b22e7b957c7361e3c53",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/js-tokens/LICENSE",
+          "evidence": "notices/js-tokens@4.0.0/package/LICENSE",
+          "sha256": "2213d91c606205c71eb051a199478cdc2adde945893404d7f1421436dd6d5cc1",
+          "bytes": 1103
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/json-schema-traverse",
+      "name": "json-schema-traverse",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz",
+      "integrity": "sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==",
+      "tarballSha256": "023222622df29fc274bde5d3590e47aa1d4a8e3c1d6e2aba029948ed79799b21",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/json-schema-traverse/LICENSE",
+          "evidence": "notices/json-schema-traverse@1.0.0/package/LICENSE",
+          "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+          "bytes": 1074
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/loose-envify",
+      "name": "loose-envify",
+      "version": "1.4.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz",
+      "integrity": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+      "tarballSha256": "1218830a93538a4f730d530138e945ea6a65b45e099ee7a9ea538a05141babdc",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/loose-envify/LICENSE",
+          "evidence": "notices/loose-envify@1.4.0/package/LICENSE",
+          "sha256": "4eb7543b08d955a6d23fcc224601d43ff566e775be918805e26210d7f6eb4893",
+          "bytes": 1100
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/object-assign",
+      "name": "object-assign",
+      "version": "4.1.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz",
+      "integrity": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
+      "tarballSha256": "782d726a263ba7b26cced612af97b80035516df4b0cd788524e7b2cebc4e29ed",
+      "notices": [
+        {
+          "artifactPath": "package/license",
+          "installedPath": "/app/node_modules/object-assign/license",
+          "evidence": "notices/object-assign@4.1.1/package/license",
+          "sha256": "6fb9754611c20f6649f68805e8c990e83261f29316e29de9e6cedae607b8634c",
+          "bytes": 1119
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/openapi-types",
+      "name": "openapi-types",
+      "version": "12.1.3",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/openapi-types/-/openapi-types-12.1.3.tgz",
+      "integrity": "sha512-N4YtSYJqghVu4iek2ZUvcN/0aqH1kRDuNqzcycDxhOUpg7GdvLa2F3DgS6yBNhInhv2r/6I0Flkn7CqL8+nIcw==",
+      "tarballSha256": "b13f29ee1dfcae57a7f4ca0df53d83c59e4fb0c25d5be5e4dab0ed289215403c",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/openapi-types/LICENSE",
+          "evidence": "notices/openapi-types@12.1.3/package/LICENSE",
+          "sha256": "a5b243ddbec533f2fc6e809f1194d24623dfc302bb4a29f99093e087928561e8",
+          "bytes": 1083
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/pg",
+      "name": "pg",
+      "version": "8.23.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/pg/-/pg-8.23.1.tgz",
+      "integrity": "sha512-aL96AHANtWjPLDOLqnhx+ngp9+UK7ETEU8VJrDCGvsSSi/mGLcWYsS6Herg7lmaBJe4uwrfqsa7gTEFaSizDoQ==",
+      "tarballSha256": "0d7999c755c25f7c02fbd96196291148eda737bb91e78e4031b9ebe5ef7d7de7",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/pg/LICENSE",
+          "evidence": "notices/pg@8.23.1/package/LICENSE",
+          "sha256": "192b8f5c96900f04a1271dec39688655d7416c1c6ea84a508e18b50d2b6751f3",
+          "bytes": 1077
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/pg-cloudflare",
+      "name": "pg-cloudflare",
+      "version": "1.4.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/pg-cloudflare/-/pg-cloudflare-1.4.1.tgz",
+      "integrity": "sha512-6PQbsFWZcp9EmJEwy5cGQ2La+AMWpP46lgbb8X+U/XsHIUweYDNCpeuKck5RxL2MdVFi7krbbEi5nX4Zh7JhrQ==",
+      "tarballSha256": "7a3b140775e885d245bcd0c08f60cc5d726449a4dfabda6a31537b7411ef38cc",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/pg-cloudflare/LICENSE",
+          "evidence": "notices/pg-cloudflare@1.4.1/package/LICENSE",
+          "sha256": "192b8f5c96900f04a1271dec39688655d7416c1c6ea84a508e18b50d2b6751f3",
+          "bytes": 1077
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/pg-connection-string",
+      "name": "pg-connection-string",
+      "version": "2.14.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-2.14.1.tgz",
+      "integrity": "sha512-qR3kGNPBLpCNtz0evbKA0Y/MRFXwSSdT+pTJvYp/bXTcReZbvX1kzF0IyTc1QnxqF7AZbOeBhNL8R5mYQZV/MA==",
+      "tarballSha256": "22f69d9711c971d8b66eb78474073ba7f47f27bb69a4347c13cb8ab7c75dfaff",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/pg-connection-string/LICENSE",
+          "evidence": "notices/pg-connection-string@2.14.1/package/LICENSE",
+          "sha256": "2244b5486c4427001b6756a87b9a297d427c111dcc3ba64a097492a8979c23d0",
+          "bytes": 1082
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/pg-int8",
+      "name": "pg-int8",
+      "version": "1.0.1",
+      "declaredLicense": "ISC",
+      "lockLicense": "ISC",
+      "tarball": "https://registry.npmjs.org/pg-int8/-/pg-int8-1.0.1.tgz",
+      "integrity": "sha512-WCtabS6t3c8SkpDBUlb1kjOs7l66xsGdKpIPZsg4wR+B3+u9UAum2odSsF9tnvxg80h4ZxLWMy4pRjOsFIqQpw==",
+      "tarballSha256": "f010d48974a96814e841edbb6fc6096385574610714d2a50e99811170c365e92",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/pg-int8/LICENSE",
+          "evidence": "notices/pg-int8@1.0.1/package/LICENSE",
+          "sha256": "4e8e87ccdfc7e4b47fd89015f78468aa53b6bf43ab6e6e12d43e8f55294911de",
+          "bytes": 750
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/pg-pool",
+      "name": "pg-pool",
+      "version": "3.14.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/pg-pool/-/pg-pool-3.14.0.tgz",
+      "integrity": "sha512-gKtPkFdQPU3DksooVLi9LsjZxrsBUZIpa+7aVx+LV5pNh0KzP4Zleud2po+ConrxbuXGBJ6Hfer6hdgpIBpBaw==",
+      "tarballSha256": "0b0b8729c09d5eaa059313c9c3d11efc8907441386bbf86ccc57e1298c6ce71a",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/pg-pool/LICENSE",
+          "evidence": "notices/pg-pool@3.14.0/package/LICENSE",
+          "sha256": "4f15ee7fc2a72082859d7e0d12dfa4bcdd70b1c744ad3850d07780730ac08557",
+          "bytes": 1073
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/pg-protocol",
+      "name": "pg-protocol",
+      "version": "1.16.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/pg-protocol/-/pg-protocol-1.16.1.tgz",
+      "integrity": "sha512-p9VOFMiHB/ZbJATetbg+99PxssTVSQRnyuPSQ67mN1+1KBOjZaZ83ZQzltnxPhJwSsC3nwVjJ10DVJlerbFzLg==",
+      "tarballSha256": "e1315b9dc839a029109e3a521c1dd1d9c7265722fdbc50d27ff5f7274f70732f",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/pg-protocol/LICENSE",
+          "evidence": "notices/pg-protocol@1.16.1/package/LICENSE",
+          "sha256": "192b8f5c96900f04a1271dec39688655d7416c1c6ea84a508e18b50d2b6751f3",
+          "bytes": 1077
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/pg-types",
+      "name": "pg-types",
+      "version": "2.2.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/pg-types/-/pg-types-2.2.0.tgz",
+      "integrity": "sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==",
+      "tarballSha256": "c4804fd058140c32f8fda78883ad45dee3eaa4fd9e9127b6eb659fefe51981bd",
+      "notices": [
+        {
+          "artifactPath": "package/README.md",
+          "installedPath": "/app/node_modules/pg-types/README.md",
+          "evidence": "notices/pg-types@2.2.0/package/README.md",
+          "sha256": "ecda9bca71d3f0cee4e600d1dd2bef336213f39ef2e8fca6a1a1c1c8723f643a",
+          "bytes": 3831,
+          "grantLocation": "Original README embedded MIT grant"
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/pgpass",
+      "name": "pgpass",
+      "version": "1.0.5",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/pgpass/-/pgpass-1.0.5.tgz",
+      "integrity": "sha512-FdW9r/jQZhSeohs1Z3sI1yxFQNFvMcnmfuj4WBMUTxOrAyLMaTcE1aAMBiTlbMNaXvBCQuVi0R7hd8udDSP7ug==",
+      "tarballSha256": "ff794c956186430afd600b5bc4500f3f0faf34b62be6ff98494f4c7f4a6d8597",
+      "notices": [
+        {
+          "artifactPath": "package/README.md",
+          "installedPath": "/app/node_modules/pgpass/README.md",
+          "evidence": "notices/pgpass@1.0.5/package/README.md",
+          "sha256": "62549909404b5a0dcb2b4b74c9a930baf8095dbcfa1543c4ffc79378acd22b57",
+          "bytes": 3294,
+          "grantLocation": "Original README embedded MIT grant"
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/postgres-array",
+      "name": "postgres-array",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/postgres-array/-/postgres-array-2.0.0.tgz",
+      "integrity": "sha512-VpZrUqU5A69eQyW2c5CA1jtLecCsN2U/bD6VilrFDWq5+5UIEVO7nazS3TEcHf1zuPYO/sqGvUvW62g86RXZuA==",
+      "tarballSha256": "dbf1035c777631d4b0a4b5c035b1f6247dd923db6b2ea115b93b1eabb172b3a0",
+      "notices": [
+        {
+          "artifactPath": "package/license",
+          "installedPath": "/app/node_modules/postgres-array/license",
+          "evidence": "notices/postgres-array@2.0.0/package/license",
+          "sha256": "f057f36739d53d228a746de4440c1e0c644ecde06d6beab45337d39c9d12a393",
+          "bytes": 1111
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/postgres-bytea",
+      "name": "postgres-bytea",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-1.0.1.tgz",
+      "integrity": "sha512-5+5HqXnsZPE65IJZSMkZtURARZelel2oXUEO8rH83VS/hxH5vv1uHquPg5wZs8yMAfdv971IU+kcPUczi7NVBQ==",
+      "tarballSha256": "0395e34ecb9945b0003132af6e11463ec7ec8f17fb5cbdbccc5a822bd6807d96",
+      "notices": [
+        {
+          "artifactPath": "package/license",
+          "installedPath": "/app/node_modules/postgres-bytea/license",
+          "evidence": "notices/postgres-bytea@1.0.1/package/license",
+          "sha256": "f057f36739d53d228a746de4440c1e0c644ecde06d6beab45337d39c9d12a393",
+          "bytes": 1111
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/postgres-date",
+      "name": "postgres-date",
+      "version": "1.0.7",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/postgres-date/-/postgres-date-1.0.7.tgz",
+      "integrity": "sha512-suDmjLVQg78nMK2UZ454hAG+OAW+HQPZ6n++TNDUX+L0+uUlLywnoxJKDou51Zm+zTCjrCl0Nq6J9C5hP9vK/Q==",
+      "tarballSha256": "a67a8d90e7b8f64041a6f425b102b27a3e86d5854ace7e9414a890912f3adb59",
+      "notices": [
+        {
+          "artifactPath": "package/license",
+          "installedPath": "/app/node_modules/postgres-date/license",
+          "evidence": "notices/postgres-date@1.0.7/package/license",
+          "sha256": "f057f36739d53d228a746de4440c1e0c644ecde06d6beab45337d39c9d12a393",
+          "bytes": 1111
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/postgres-interval",
+      "name": "postgres-interval",
+      "version": "1.2.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/postgres-interval/-/postgres-interval-1.2.0.tgz",
+      "integrity": "sha512-9ZhXKM/rw350N1ovuWHbGxnGh/SNJ4cnxHiM0rxE4VN41wsg8P8zWn9hv/buK00RP4WvlOyr/RBDiptyxVbkZQ==",
+      "tarballSha256": "e67563626b30aa7d22caf930e38529bb137476146a11eaaa0bb1e07c0a2413b1",
+      "notices": [
+        {
+          "artifactPath": "package/license",
+          "installedPath": "/app/node_modules/postgres-interval/license",
+          "evidence": "notices/postgres-interval@1.2.0/package/license",
+          "sha256": "f057f36739d53d228a746de4440c1e0c644ecde06d6beab45337d39c9d12a393",
+          "bytes": 1111
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/prop-types",
+      "name": "prop-types",
+      "version": "15.8.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz",
+      "integrity": "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==",
+      "tarballSha256": "1c739eb05d8a462c286a4e9dd02f2ce5485c6fa3529244e9ff9b13a3671aa557",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/prop-types/LICENSE",
+          "evidence": "notices/prop-types@15.8.1/package/LICENSE",
+          "sha256": "f657f99d3fb9647db92628e96007aabb46e5f04f33e49999075aab8e250ca7ce",
+          "bytes": 1080
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/prop-types/node_modules/react-is",
+      "name": "react-is",
+      "version": "16.13.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz",
+      "integrity": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==",
+      "tarballSha256": "0bdbb5d473ddc13e850987f3937666e261b6a3a8fcaffddd8195953ff0faee8f",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/prop-types/node_modules/react-is/LICENSE",
+          "evidence": "notices/react-is@16.13.1/package/LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/radash",
+      "name": "radash",
+      "version": "12.1.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/radash/-/radash-12.1.1.tgz",
+      "integrity": "sha512-h36JMxKRqrAxVD8201FrCpyeNuUY9Y5zZwujr20fFO77tpUtGa6EZzfKw/3WaiBX95fq7+MpsuMLNdSnORAwSA==",
+      "tarballSha256": "f92845d3df9df462dc6cba685c1b12254df53a007f97180ab53ea613a3f56aeb",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE.md",
+          "installedPath": "/app/node_modules/radash/LICENSE.md",
+          "evidence": "notices/radash@12.1.1/package/LICENSE.md",
+          "sha256": "bf266f265346233db712a102809d0d1cfe2c4202a0e4936c6cb841a31b590ac7",
+          "bytes": 1062
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/react",
+      "name": "react",
+      "version": "19.3.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/react/-/react-19.3.0.tgz",
+      "integrity": "sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==",
+      "tarballSha256": "5a4024110c49476e1538a70fd65b9e59d038fcc280b78eb933c24e10453afbf9",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/react/LICENSE",
+          "evidence": "notices/react@19.3.0/package/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/react-dom",
+      "name": "react-dom",
+      "version": "19.3.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz",
+      "integrity": "sha512-JDk8dgif51OjFoDE70+OT9ICyYr+69HlmihNwp1+Nsfbna3t5sIiCa9ZJktDmQ4/1b/rn26hIAR2uYXDMr5r0Q==",
+      "tarballSha256": "dbeffb1e6cdbbbba07f799da4635333d0e20c210a32278dded85441ec4cb6a17",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/react-dom/LICENSE",
+          "evidence": "notices/react-dom@19.3.0/package/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/react-is",
+      "name": "react-is",
+      "version": "19.3.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/react-is/-/react-is-19.3.0.tgz",
+      "integrity": "sha512-UpMYezM4v5/18F28aC66AEsjXIgE02kyEMH6yLdgLXu/UTfa1Ntwck/nNLrbqJsEXW7gPb0coNO9FQse9WTovA==",
+      "tarballSha256": "3adffb233a18be2b79c3521cf1b2e26902c0cafc2a1de2d7e9f086afd3a2f7a5",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/react-is/LICENSE",
+          "evidence": "notices/react-is@19.3.0/package/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/react-number-format",
+      "name": "react-number-format",
+      "version": "5.4.5",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/react-number-format/-/react-number-format-5.4.5.tgz",
+      "integrity": "sha512-y8O2yHHj3w0aE9XO8d2BCcUOOdQTRSVq+WIuMlLVucAm5XNjJAy+BoOJiuQMldVYVOKTMyvVNfnbl2Oqp+YxGw==",
+      "tarballSha256": "e3f7299bd5361770cdb5b132cee0308e379a8bdeea6dc08db859431134c6f75a",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/react-number-format/LICENSE",
+          "evidence": "notices/react-number-format@5.4.5/package/LICENSE",
+          "sha256": "55aaf8cf3f0c02371907f2c6fdd8bb366647fd6d4be0cfcc403e62613597cab8",
+          "bytes": 1080
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/react-redux",
+      "name": "react-redux",
+      "version": "9.3.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/react-redux/-/react-redux-9.3.0.tgz",
+      "integrity": "sha512-KQopgqFo/p/fgmAs5qz6p5RWaNAzq40WAu7fJIXnQpYxFPbJYtsJPWvGeF2rOBaY/kEuV77AVsX8TsQzKm+A/g==",
+      "tarballSha256": "947436d0e52a8f4fa348aaf5708eafc8ae8395b986229f0fce5c91c81011c805",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE.md",
+          "installedPath": "/app/node_modules/react-redux/LICENSE.md",
+          "evidence": "notices/react-redux@9.3.0/package/LICENSE.md",
+          "sha256": "f2da73c752c6b87624755edacf927cbd915fa76555d383e74494bad4a5155ab3",
+          "bytes": 1086
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/react-remove-scroll",
+      "name": "react-remove-scroll",
+      "version": "2.7.2",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/react-remove-scroll/-/react-remove-scroll-2.7.2.tgz",
+      "integrity": "sha512-Iqb9NjCCTt6Hf+vOdNIZGdTiH1QSqr27H/Ek9sv/a97gfueI/5h1s3yRi1nngzMUaOOToin5dI1dXKdXiF+u0Q==",
+      "tarballSha256": "b9c7cc76fbd5cfb209e03b668228d56e14a76afc922434e5964f2d2f36ccf1cc",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/react-remove-scroll/LICENSE",
+          "evidence": "notices/react-remove-scroll@2.7.2/package/LICENSE",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+          "bytes": 1071
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/react-remove-scroll-bar",
+      "name": "react-remove-scroll-bar",
+      "version": "2.3.8",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz",
+      "integrity": "sha512-9r+yi9+mgU33AKcj6IbT9oRCO78WriSj6t/cF8DWBZJ9aOGPOTEDvdUDz1FwKim7QXWwmHqtdHnRJfhAxEG46Q==",
+      "tarballSha256": "ccc872d7a2dc007cbf9d755f30d56b8d80eabdbe22c44c95a709129bfdc46f01",
+      "notices": [],
+      "grantCoverage": {
+        "originalNotice": "/app/node_modules/@stablemates/workhorse-dashboard-server/dist/app/THIRD_PARTY_NOTICES.txt",
+        "evidence": "notices/@stablemates/workhorse-dashboard-server@0.6.1/package/dist/app/THIRD_PARTY_NOTICES.txt",
+        "sha256": "861533fc8246cc90c66d7b237203c4025345f00c0902936ee2e635dc64e141c6",
+        "section": "react-remove-scroll-bar@2.3.8; MIT; Copyright (c) 2025 Anton Korzunov; complete permission/disclaimer"
+      }
+    },
+    {
+      "installPath": "node_modules/react-style-singleton",
+      "name": "react-style-singleton",
+      "version": "2.2.3",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/react-style-singleton/-/react-style-singleton-2.2.3.tgz",
+      "integrity": "sha512-b6jSvxvVnyptAiLjbkWLE/lOnR4lfTtDAl+eUC7RZy+QQWc6wRzIV2CE6xBuMmDxc2qIihtDCZD5NPOFl7fRBQ==",
+      "tarballSha256": "8cd3380ee25e0ac80060dcee138c61433862a992fc21d665da823efbfe43ff0f",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/react-style-singleton/LICENSE",
+          "evidence": "notices/react-style-singleton@2.2.3/package/LICENSE",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+          "bytes": 1071
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/react-transition-group",
+      "name": "react-transition-group",
+      "version": "4.4.5",
+      "declaredLicense": "BSD-3-Clause",
+      "lockLicense": "BSD-3-Clause",
+      "tarball": "https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.5.tgz",
+      "integrity": "sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==",
+      "tarballSha256": "30a70dea3287ae9638e9d31974add118ff34011c3642d4f83d31e90c0a8a034a",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/react-transition-group/LICENSE",
+          "evidence": "notices/react-transition-group@4.4.5/package/LICENSE",
+          "sha256": "b9adc17ad75a847d8743be2843935f0842a0ea4f45e7b0c7e17ed0be98614b9b",
+          "bytes": 1608
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/recharts",
+      "name": "recharts",
+      "version": "3.10.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/recharts/-/recharts-3.10.1.tgz",
+      "integrity": "sha512-QXFrvt6IVcw7eeZCoyXTwkIJAX3Dv1nyVhMicXJ47GsGDDpcN8z6o644DibE9XjpBTThtsomLKnTV6lc+cVFUA==",
+      "tarballSha256": "c67f9683487503743c769b188e7bc89cfbe438fb963f01c3e67df6365eb045b1",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/recharts/LICENSE",
+          "evidence": "notices/recharts@3.10.1/package/LICENSE",
+          "sha256": "2d3aa48a8d1d3b93093680e8e68d3a64cfb590c3ade377ffcaefc69dac7c2ce5",
+          "bytes": 1084
+        },
+        {
+          "artifactPath": "package/umd/Recharts.js.LICENSE.txt",
+          "installedPath": "/app/node_modules/recharts/umd/Recharts.js.LICENSE.txt",
+          "evidence": "notices/recharts@3.10.1/package/umd/Recharts.js.LICENSE.txt",
+          "sha256": "c8b22deb666940868b61b1bc7498c178c76ae6350de43dbde37923d6cec336e4",
+          "bytes": 615
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/redux",
+      "name": "redux",
+      "version": "5.0.1",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/redux/-/redux-5.0.1.tgz",
+      "integrity": "sha512-M9/ELqF6fy8FwmkpnF0S3YKOqMyoWJ4+CS5Efg2ct3oY9daQvd/Pc71FpGZsVsbl3Cpb+IIcjBDUnnyBdQbq4w==",
+      "tarballSha256": "adacd4f8a377e638a3feb568e45e8b8ff22c926516941db25b1acfc34d94398b",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE.md",
+          "installedPath": "/app/node_modules/redux/LICENSE.md",
+          "evidence": "notices/redux@5.0.1/package/LICENSE.md",
+          "sha256": "f2da73c752c6b87624755edacf927cbd915fa76555d383e74494bad4a5155ab3",
+          "bytes": 1086
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/redux-thunk",
+      "name": "redux-thunk",
+      "version": "3.1.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/redux-thunk/-/redux-thunk-3.1.0.tgz",
+      "integrity": "sha512-NW2r5T6ksUKXCabzhL9z+h206HQw/NJkcLm1GPImRQ8IzfXwRGqjVhKJGauHirT0DAuyy6hjdnMZaRoAcy0Klw==",
+      "tarballSha256": "7224bef7482f67d35985ebd0bc3cacb72d34c6489cf166498da7208cb3f935e6",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE.md",
+          "installedPath": "/app/node_modules/redux-thunk/LICENSE.md",
+          "evidence": "notices/redux-thunk@3.1.0/package/LICENSE.md",
+          "sha256": "635da794c92d278f8355428be0f9922d643f556d4f75f33fe4aca6b98d27affe",
+          "bytes": 1107
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/require-from-string",
+      "name": "require-from-string",
+      "version": "2.0.2",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz",
+      "integrity": "sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==",
+      "tarballSha256": "cb694a4965908f7775a0c757f00cf4e624d193cd71d77988fbcca0f597b88d82",
+      "notices": [
+        {
+          "artifactPath": "package/license",
+          "installedPath": "/app/node_modules/require-from-string/license",
+          "evidence": "notices/require-from-string@2.0.2/package/license",
+          "sha256": "6ee0feb1f6ef996ff5a68600f8cf98909cf412d39ef3cdceaefd87d636fa1b7f",
+          "bytes": 1128
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/reselect",
+      "name": "reselect",
+      "version": "5.2.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/reselect/-/reselect-5.2.0.tgz",
+      "integrity": "sha512-AgZ3UOZm3YndfrJ4OYjgrT7bmCm/1iqkjvEfH/oYjzh6PD2qw4QuT3jjnXIrpdt4MTpMXclMT3lXbmRY+XRakw==",
+      "tarballSha256": "5bc689451f40937e96b1e0a807267e8836a4deb1e534a35f621f935584ad4721",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/reselect/LICENSE",
+          "evidence": "notices/reselect@5.2.0/package/LICENSE",
+          "sha256": "e98047a5dee068b33f82e8c4b7a63037b5108c93393198efd4097753004af5dd",
+          "bytes": 1093
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/scheduler",
+      "name": "scheduler",
+      "version": "0.28.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz",
+      "integrity": "sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw==",
+      "tarballSha256": "302995d590e3c0a11eeb40d1d0f299c1df1800135d599d85cdd5faeb614f32d6",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/scheduler/LICENSE",
+          "evidence": "notices/scheduler@0.28.0/package/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/split2",
+      "name": "split2",
+      "version": "4.2.0",
+      "declaredLicense": "ISC",
+      "lockLicense": "ISC",
+      "tarball": "https://registry.npmjs.org/split2/-/split2-4.2.0.tgz",
+      "integrity": "sha512-UcjcJOWknrNkF6PLX83qcHM6KHgVKNkV62Y8a5uYDVv9ydGQVwAHMKqHdJje1VTWpljG0WYpCDhrCdAOYH4TWg==",
+      "tarballSha256": "e0061e7f042fc5ff6dcda8afb66619757d92ab1ff514a28a5904f2ebde27bf54",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/split2/LICENSE",
+          "evidence": "notices/split2@4.2.0/package/LICENSE",
+          "sha256": "c372ef2fa1dfcb124ed807609751e75e3a009f108c5724916b489288fcb88a0c",
+          "bytes": 764
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/tabbable",
+      "name": "tabbable",
+      "version": "6.5.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/tabbable/-/tabbable-6.5.0.tgz",
+      "integrity": "sha512-wieBHXygIm7OyQOu5hQlkk62/WyCFYGlWg7L6/ZCUZwx0o398Zkn4pVmMyfYhfMG8kGrj/Krt8eIk6UKC6VzwA==",
+      "tarballSha256": "4f017b2a4cf6395505f6cc5182a7053230e15afe27d6135c7e86794cd9c3e7f7",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/tabbable/LICENSE",
+          "evidence": "notices/tabbable@6.5.0/package/LICENSE",
+          "sha256": "8e714750725e75c8b31172ef84c0805f94873f86e3b5cfca8a948553f0778fa1",
+          "bytes": 1079
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/tagged-tag",
+      "name": "tagged-tag",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/tagged-tag/-/tagged-tag-1.0.0.tgz",
+      "integrity": "sha512-yEFYrVhod+hdNyx7g5Bnkkb0G6si8HJurOoOEgC8B/O0uXLHlaey/65KRv6cuWBNhBgHKAROVpc7QyYqE5gFng==",
+      "tarballSha256": "7da602a960bc17d09d3752a85466cf7241b4bc4a0909d25253632bbbc504eb66",
+      "notices": [
+        {
+          "artifactPath": "package/license",
+          "installedPath": "/app/node_modules/tagged-tag/license",
+          "evidence": "notices/tagged-tag@1.0.0/package/license",
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+          "bytes": 1117
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/tiny-invariant",
+      "name": "tiny-invariant",
+      "version": "1.3.3",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/tiny-invariant/-/tiny-invariant-1.3.3.tgz",
+      "integrity": "sha512-+FbBPE1o9QAYvviau/qC5SE3caw21q3xkvWKBtja5vgqOWIHHJ3ioaq1VPfn/Szqctz2bU/oYeKd9/z5BL+PVg==",
+      "tarballSha256": "746a0b1c98dafa3f96769e200a23fd10dacece300b312d111d19bb65c85c3d48",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/tiny-invariant/LICENSE",
+          "evidence": "notices/tiny-invariant@1.3.3/package/LICENSE",
+          "sha256": "b1c501095de70182748cb8e8d97ac5577701a4ef3b755ba30d59fd87b24bdb0f",
+          "bytes": 1073
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/tslib",
+      "name": "tslib",
+      "version": "2.8.1",
+      "declaredLicense": "0BSD",
+      "lockLicense": "0BSD",
+      "tarball": "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz",
+      "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==",
+      "tarballSha256": "66f635d5eeabae44807534976913a102cf615b9a045368359c9f79ae6ee2119e",
+      "notices": [
+        {
+          "artifactPath": "package/CopyrightNotice.txt",
+          "installedPath": "/app/node_modules/tslib/CopyrightNotice.txt",
+          "evidence": "notices/tslib@2.8.1/package/CopyrightNotice.txt",
+          "sha256": "da16ddb65f8ca390998fb99223d0112498b56b45784d00afd77ff8ce1ac4de8b",
+          "bytes": 822
+        },
+        {
+          "artifactPath": "package/LICENSE.txt",
+          "installedPath": "/app/node_modules/tslib/LICENSE.txt",
+          "evidence": "notices/tslib@2.8.1/package/LICENSE.txt",
+          "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+          "bytes": 655
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/type-fest",
+      "name": "type-fest",
+      "version": "5.10.0",
+      "declaredLicense": "(MIT OR CC0-1.0)",
+      "lockLicense": "(MIT OR CC0-1.0)",
+      "tarball": "https://registry.npmjs.org/type-fest/-/type-fest-5.10.0.tgz",
+      "integrity": "sha512-NoSdpq/WEiAg5sjmBkmV/hfxv6HJH4NqPNrqjtSO5CwRmpsDfaf4begxW34KdJykH/l1yHtwBWQkCRdoXO8mPA==",
+      "tarballSha256": "fa6130ea2af09b313a1d1636ed1bbfb62af88177a315d12043c2f728b4242acb",
+      "notices": [
+        {
+          "artifactPath": "package/license-cc0",
+          "installedPath": "/app/node_modules/type-fest/license-cc0",
+          "evidence": "notices/type-fest@5.10.0/package/license-cc0",
+          "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+          "bytes": 7048
+        },
+        {
+          "artifactPath": "package/license-mit",
+          "installedPath": "/app/node_modules/type-fest/license-mit",
+          "evidence": "notices/type-fest@5.10.0/package/license-mit",
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+          "bytes": 1117
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/undici-types",
+      "name": "undici-types",
+      "version": "8.9.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/undici-types/-/undici-types-8.9.0.tgz",
+      "integrity": "sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==",
+      "tarballSha256": "3a587851ccbf1021b20eac8a38eb819d7e2a1ab77aa477cb24cae5473a3e78c6",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/undici-types/LICENSE",
+          "evidence": "notices/undici-types@8.9.0/package/LICENSE",
+          "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+          "bytes": 1090
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/use-callback-ref",
+      "name": "use-callback-ref",
+      "version": "1.3.3",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/use-callback-ref/-/use-callback-ref-1.3.3.tgz",
+      "integrity": "sha512-jQL3lRnocaFtu3V00JToYz/4QkNWswxijDaCVNZRiRTO3HQDLsdu1ZtmIUvV4yPp+rvWm5j0y0TG/S61cuijTg==",
+      "tarballSha256": "f1c0efff7a48011a8ad317c555fd043ef6e427c78b00ca2d438682958d880600",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/use-callback-ref/LICENSE",
+          "evidence": "notices/use-callback-ref@1.3.3/package/LICENSE",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+          "bytes": 1071
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/use-sidecar",
+      "name": "use-sidecar",
+      "version": "1.1.3",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/use-sidecar/-/use-sidecar-1.1.3.tgz",
+      "integrity": "sha512-Fedw0aZvkhynoPYlA5WXrMCAMm+nSWdZt6lzJQ7Ok8S6Q+VsHmHpRWndVRJ8Be0ZbkfPc5LRYH+5XrzXcEeLRQ==",
+      "tarballSha256": "06e3040fe38ac958402bbda2cd640b556786048b6bd3d97900eec1d80702c0f8",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/use-sidecar/LICENSE",
+          "evidence": "notices/use-sidecar@1.1.3/package/LICENSE",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+          "bytes": 1071
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/use-sync-external-store",
+      "name": "use-sync-external-store",
+      "version": "1.7.0",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.7.0.tgz",
+      "integrity": "sha512-6L+EeigHMQhdaIPNIFUKwfWJSwWFQ8gJbJ2DLOs5sDIegTwR9fRxvnM3uciHKjIZhFz+KAv2emhWMRvDmMcY8A==",
+      "tarballSha256": "4f62a44660396a55417322fb0c71c14413b784192e4cd18acfec6bdf3157e359",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/use-sync-external-store/LICENSE",
+          "evidence": "notices/use-sync-external-store@1.7.0/package/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/victory-vendor",
+      "name": "victory-vendor",
+      "version": "37.3.6",
+      "declaredLicense": "MIT AND ISC",
+      "lockLicense": "MIT AND ISC",
+      "tarball": "https://registry.npmjs.org/victory-vendor/-/victory-vendor-37.3.6.tgz",
+      "integrity": "sha512-SbPDPdDBYp+5MJHhBCAyI7wKM3d5ivekigc2Dk2s7pgbZ9wIgIBYGVw4zGHBml/qTFbexrofXW6Gu4noGxrOwQ==",
+      "tarballSha256": "fcd31088a50fca4c489892a77c3e86e7662cc40a3249606cc3d9130950295483",
+      "notices": [
+        {
+          "artifactPath": "package/lib-vendor/d3-array/LICENSE",
+          "installedPath": "/app/node_modules/victory-vendor/lib-vendor/d3-array/LICENSE",
+          "evidence": "notices/victory-vendor@37.3.6/package/lib-vendor/d3-array/LICENSE",
+          "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884",
+          "bytes": 731
+        },
+        {
+          "artifactPath": "package/lib-vendor/d3-color/LICENSE",
+          "installedPath": "/app/node_modules/victory-vendor/lib-vendor/d3-color/LICENSE",
+          "evidence": "notices/victory-vendor@37.3.6/package/lib-vendor/d3-color/LICENSE",
+          "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884",
+          "bytes": 731
+        },
+        {
+          "artifactPath": "package/lib-vendor/d3-ease/LICENSE",
+          "installedPath": "/app/node_modules/victory-vendor/lib-vendor/d3-ease/LICENSE",
+          "evidence": "notices/victory-vendor@37.3.6/package/lib-vendor/d3-ease/LICENSE",
+          "sha256": "b989d9085148d21ff64a75e14462aefa06b2589a55553b07b1460c70081c7d08",
+          "bytes": 1504
+        },
+        {
+          "artifactPath": "package/lib-vendor/d3-format/LICENSE",
+          "installedPath": "/app/node_modules/victory-vendor/lib-vendor/d3-format/LICENSE",
+          "evidence": "notices/victory-vendor@37.3.6/package/lib-vendor/d3-format/LICENSE",
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+          "bytes": 731
+        },
+        {
+          "artifactPath": "package/lib-vendor/d3-interpolate/LICENSE",
+          "installedPath": "/app/node_modules/victory-vendor/lib-vendor/d3-interpolate/LICENSE",
+          "evidence": "notices/victory-vendor@37.3.6/package/lib-vendor/d3-interpolate/LICENSE",
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+          "bytes": 731
+        },
+        {
+          "artifactPath": "package/lib-vendor/d3-path/LICENSE",
+          "installedPath": "/app/node_modules/victory-vendor/lib-vendor/d3-path/LICENSE",
+          "evidence": "notices/victory-vendor@37.3.6/package/lib-vendor/d3-path/LICENSE",
+          "sha256": "0ab21426fad1e8b819ea8ab4c7faf5a24d4fca9c01572fe722490d600bba0d22",
+          "bytes": 731
+        },
+        {
+          "artifactPath": "package/lib-vendor/d3-scale/LICENSE",
+          "installedPath": "/app/node_modules/victory-vendor/lib-vendor/d3-scale/LICENSE",
+          "evidence": "notices/victory-vendor@37.3.6/package/lib-vendor/d3-scale/LICENSE",
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+          "bytes": 731
+        },
+        {
+          "artifactPath": "package/lib-vendor/d3-shape/LICENSE",
+          "installedPath": "/app/node_modules/victory-vendor/lib-vendor/d3-shape/LICENSE",
+          "evidence": "notices/victory-vendor@37.3.6/package/lib-vendor/d3-shape/LICENSE",
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+          "bytes": 731
+        },
+        {
+          "artifactPath": "package/lib-vendor/d3-time-format/LICENSE",
+          "installedPath": "/app/node_modules/victory-vendor/lib-vendor/d3-time-format/LICENSE",
+          "evidence": "notices/victory-vendor@37.3.6/package/lib-vendor/d3-time-format/LICENSE",
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+          "bytes": 731
+        },
+        {
+          "artifactPath": "package/lib-vendor/d3-time/LICENSE",
+          "installedPath": "/app/node_modules/victory-vendor/lib-vendor/d3-time/LICENSE",
+          "evidence": "notices/victory-vendor@37.3.6/package/lib-vendor/d3-time/LICENSE",
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+          "bytes": 731
+        },
+        {
+          "artifactPath": "package/lib-vendor/d3-timer/LICENSE",
+          "installedPath": "/app/node_modules/victory-vendor/lib-vendor/d3-timer/LICENSE",
+          "evidence": "notices/victory-vendor@37.3.6/package/lib-vendor/d3-timer/LICENSE",
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee",
+          "bytes": 731
+        },
+        {
+          "artifactPath": "package/lib-vendor/d3-voronoi/LICENSE",
+          "installedPath": "/app/node_modules/victory-vendor/lib-vendor/d3-voronoi/LICENSE",
+          "evidence": "notices/victory-vendor@37.3.6/package/lib-vendor/d3-voronoi/LICENSE",
+          "sha256": "ad6cf57648385d6c40a29f73c55e42922dd793823df5ea265ccd834873bf09b9",
+          "bytes": 2656
+        },
+        {
+          "artifactPath": "package/lib-vendor/internmap/LICENSE",
+          "installedPath": "/app/node_modules/victory-vendor/lib-vendor/internmap/LICENSE",
+          "evidence": "notices/victory-vendor@37.3.6/package/lib-vendor/internmap/LICENSE",
+          "sha256": "9ea8903938dab5f12c4572d60725069bec2d1b0dc3bcc210b09bae946a5ebb1f",
+          "bytes": 726
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/xtend",
+      "name": "xtend",
+      "version": "4.0.2",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz",
+      "integrity": "sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==",
+      "tarballSha256": "bd22a01d43c799be7bb53dfa9e775b132045e39525e51efb977528a00041ba48",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/xtend/LICENSE",
+          "evidence": "notices/xtend@4.0.2/package/LICENSE",
+          "sha256": "82e67379203d5794e7c44549847d8d64ae6904591381682360470898bd306821",
+          "bytes": 1078
+        }
+      ]
+    },
+    {
+      "installPath": "node_modules/zod",
+      "name": "zod",
+      "version": "4.6.5",
+      "declaredLicense": "MIT",
+      "lockLicense": "MIT",
+      "tarball": "https://registry.npmjs.org/zod/-/zod-4.6.5.tgz",
+      "integrity": "sha512-v5l/aFXZQeai4awLbOpSoHecE9UiMrnfx75tEXLjNonXVARxQ5mOeipTjROUchszUNCqnE+hqAMujRsRHsut2Q==",
+      "tarballSha256": "a78c0c533de30dc1c4afc259ac43ac06e390cb0da8d2e32eae355301b50b36fc",
+      "notices": [
+        {
+          "artifactPath": "package/LICENSE",
+          "installedPath": "/app/node_modules/zod/LICENSE",
+          "evidence": "notices/zod@4.6.5/package/LICENSE",
+          "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8",
+          "bytes": 1072
+        }
+      ]
+    }
+  ]
+}

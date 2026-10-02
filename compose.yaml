@@ -1,6 +1,6 @@
 services:
   postgres:
-    image: postgres:17.9-bookworm@sha256:47f917f7409eacd22fc5dfb1dee634e1b55cf0c01d1a7eb701be2227a03e0641
+    image: postgres:17.11-bookworm@sha256:639ab7ceb90e13123085b741fb31ef493fba25463002f6da665352e7b534b652
     environment:
       POSTGRES_DB: workhorse
       POSTGRES_USER: workhorse

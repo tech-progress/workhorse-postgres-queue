@@ -36,7 +36,12 @@ for service, variables in defaults.items():
         assert key in readme and descriptions[service][key]
 for line in (root / "Dockerfile").read_text().splitlines():
     if line.startswith("FROM "):
-        assert "@sha256:" in line, line
+        assert "@sha256:" in line or line == "FROM scratch AS runtime", line
+for name, dependency in lock["packages"].items():
+    if name and not dependency.get("dev", False):
+        assert dependency["resolved"].startswith("https://registry.npmjs.org/"), name
+        assert dependency["integrity"].startswith("sha512-"), name
+        assert not dependency.get("hasInstallScript", False), name
 compose = (root / "compose.yaml").read_text()
 assert "docker.sock" not in compose and "privileged:" not in compose
 for image in re.findall(r"^\s+image: (.+)$", compose, re.M):

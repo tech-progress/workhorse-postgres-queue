@@ -1,12 +1,14 @@
 # Workhorse PostgreSQL queue
 
+**Template version:** `v1.0.2` uses Workhorse `0.6.1`, immutable Node 24.20.0, PCRE2 security package 10.42-1+deb12u1 and a runtime without package-manager tools. A source release is separate from marketplace publication. Confirm listing status on Railway; publication requires the artifact, final-source, live-deployment and cleanup checks in PUBLISHING.md. Tests of an earlier release do not qualify this changed container.
+
 Upstream products: [Workhorse](https://workhorse.run/) · [PostgreSQL](https://www.postgresql.org/).
 
-The current template release is `v1.0.1`. This evaluation/small-team recipe has local and live Railway qualification; marketplace promotion additionally requires the stored-draft, cleanup and metadata gates in PUBLISHING.md. Original recipe code is MIT; upstream Workhorse and PostgreSQL keep their own licenses and notices.
+Template versions are separate from upstream Workhorse versions. This evaluation/small-team recipe keeps original recipe code under MIT; upstream Workhorse and PostgreSQL retain their own licenses and notices.
 
 ## What deploys
 
-Three independently deployed services: PostgreSQL 17.9, a Node.js 24 worker with Workhorse SDK 0.6.0, and the matching read-only dashboard. No Redis, broker, shared service disk, Docker socket, or public database. Workhorse is public beta; this is an evaluation/small-team queue recipe, not an exactly-once or HA guarantee.
+Three independently deployed services: PostgreSQL 17.11, a Node.js 24 worker with Workhorse SDK 0.6.1, and the matching read-only dashboard. No Redis, broker, shared service disk, Docker socket, or public database. Workhorse is public beta; this is an evaluation/small-team queue recipe, not an exactly-once or HA guarantee.
 
 The worker's pre-deploy command installs Workhorse's ordered schema plus the recipe effect table. Runtime worker/dashboard processes only assert schema compatibility. Dashboard startup waits for the schema gate. Run the pre-deploy installer once per release, not from each worker replica; migrations require the database to already be available.
 
@@ -22,7 +24,7 @@ The task `recipe.effect` validates bounded input, deliberately fails once, saves
 
 ## Source prerequisites
 
-The public distribution source is `tech-progress/workhorse-postgres-queue`, with compatibility channel `release-v1`, immutable release tag `v1.0.1`, and root directory `/`. `.railway/railway.ts` uses that source by default. Marketplace users should retain the upstream release source; fork maintainers must change `SOURCE_REPO` to their repository, create a slash-free release channel and authorize the Railway GitHub App. These are authoring settings, not runtime secrets. The graph deliberately retains platform secret expressions; do not apply it literally to a running source project. Disposable source probes must generate cryptographically random credentials once and preserve them.
+The public distribution source is `tech-progress/workhorse-postgres-queue`, with compatibility channel `release-v1`, immutable `vX.Y.Z` release tags, and root directory `/`. `.railway/railway.ts` uses that source by default. A local candidate is not an uploaded release until its sanitized source and tag are verified. Marketplace users should retain the upstream release source; fork maintainers must change `SOURCE_REPO` to their repository, create a slash-free release channel and authorize the Railway GitHub App. These are authoring settings, not runtime secrets. The graph deliberately retains platform secret expressions; do not apply it literally to a running source project. Disposable source probes must generate cryptographically random credentials once and preserve them.
 
 ## Runtime variables
 
@@ -32,7 +34,7 @@ Every default below is documented; descriptions in template-descriptions.json ma
 | --- | --- | --- | --- |
 | Postgres | `PORT` | `5432` | Internal listener/probe target port; do not expose private services. |
 | Postgres | `POSTGRES_DB` | `workhorse` | Durable queue database name. |
-| Postgres | `POSTGRES_USER` | `workhorse` | Database owner for schema installation; isolate from other applications. |
+| Postgres | `POSTGRES_USER` | `workhorse` | Bootstrap database role; the official image creates it as a superuser. Both apps use this role; isolate from other applications. |
 | Postgres | `POSTGRES_PASSWORD` | Generated secret | Generated alphanumeric database credential, referenced by applications. |
 | Postgres | `PGDATA` | `/var/lib/postgresql/data/pgdata` | PostgreSQL cluster subdirectory on its exclusive volume. |
 | Worker | `PORT` | `3000` | Internal listener/probe target port; do not expose private services. |
@@ -61,7 +63,7 @@ COMPOSE_PROJECT_NAME=my-workhorse bash scripts/smoke.sh
 docker compose -p my-workhorse down -v
 ```
 
-Install authoring dependencies with `npm ci --ignore-scripts`, then run `bash scripts/verify.sh`. Hatchet also uses `uv sync --frozen`; no global tool installation is performed. `scripts/local-smoke.sh` owns a unique Compose project and removes only its containers/volumes in an EXIT trap. `scripts/smoke.sh` tests an already-running stack without deleting it.
+Install authoring dependencies with `npm ci --ignore-scripts`, then run `bash scripts/verify.sh`. No global tool installation is performed. `scripts/local-smoke.sh` owns a unique Compose project and removes only its containers/volumes in an EXIT trap. `scripts/smoke.sh` tests an already-running stack without deleting it.
 
 ## State, backups and restore
 
@@ -69,8 +71,12 @@ The exclusive Postgres volume holds tasks, attempts, checkpoints, durable waits,
 
 `scripts/local-smoke.sh` creates only its own isolated stack and performs real fail-once/delay, SIGKILL lease recovery, and a dump/restore into a second database with a pending checkpointed task. This is logical single-node restore qualification, not PITR/HA qualification.
 
+For an existing0.6.0 deployment, see [Upgrade guidance](UPGRADE.md) and `scripts/upgrade-smoke.sh`. The upgrade test checks actual old data, stop-before-replace recovery and a pre-upgrade backup restored into a distinct empty volume; it does not claim a rolling upgrade or schema downgrade.
+
 ## Security and support boundary
 
 If readiness waits, check PostgreSQL and the pre-deploy schema job; do not add runtime auto-migrations. If the dashboard returns 401, check the configured operator/hash and redeploy after rotation; 404 at / is expected, use /workhorse/. If tasks do not move, confirm the registered worker, matching task type, paused state and concurrency. Recovering a killed worker takes at least a lease expiry plus maintenance. Inspect dead letters before redrive. Never paste DATABASE_URL, task payloads, credentials or dumps into support issues.
 
 No HA, production capacity, arbitrary untrusted workloads, exactly-once external delivery or indefinite retention claim is made. Keep internal databases, workers, health ports and gRPC private. Use Railway TLS for all public authenticated endpoints. See SUPPORT.md and UPGRADE.md.
+
+Read-only dashboard behavior does not imply a least-privilege database role. This evaluation recipe uses the same bootstrap PostgreSQL role for schema installation, Worker and Dashboard. A deployment that needs tenant isolation or restricted SQL permissions must provision and qualify separate roles before exposing untrusted workloads.

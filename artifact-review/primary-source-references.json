@@ -1,0 +1,232 @@
+[
+  {
+    "id": "CVE-2025-13151",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2025-13151",
+    "sha256": "2f30b3b88ee41c98838aefd3441f1d03668f59a62ced95a0e7f1e4b515f6b951"
+  },
+  {
+    "id": "CVE-2025-69720",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2025-69720",
+    "sha256": "3542be519daaef8f60a0fd662f4a6129a238f59ef9b86155869d49cfd2b3af78"
+  },
+  {
+    "id": "CVE-2026-102010",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-102010",
+    "sha256": "de924fb56f44b38d962d37c606d417442ba517239d628428645cb9cfe7d5fad7"
+  },
+  {
+    "id": "CVE-2026-103111",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-103111",
+    "sha256": "75ebccbb6f8cd66d891f20218cbc1d7c0c71aaa47e80a40a2ae56ab797058cc0"
+  },
+  {
+    "id": "CVE-2026-12087",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-12087",
+    "sha256": "3ead60bbe81ac3a42c3e2622cbe21860855df479250e74c869b9600f85405be0"
+  },
+  {
+    "id": "CVE-2026-13221",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-13221",
+    "sha256": "8780b5dd3189ed5a228e1ee2fd25bbdc9e7791471f5ae2ca71aebd7694054d89"
+  },
+  {
+    "id": "CVE-2026-19499",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-19499",
+    "sha256": "781711387c317b098e43e559bc230000a148d58ee83e0e483953d5d371f235f7"
+  },
+  {
+    "id": "CVE-2026-41992",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-41992",
+    "sha256": "23c64845212bf6eafcc398c596b4cbeed977de4ce5acfbb0afa6bbae07016132"
+  },
+  {
+    "id": "CVE-2026-42496",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-42496",
+    "sha256": "5d3e1e026c88098168434628eb1579f7843805acaa69637588d40dcb2acab0da"
+  },
+  {
+    "id": "CVE-2026-42497",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-42497",
+    "sha256": "fd9d314890735a0e70ac63c672c5512553e0e481d58b7ab17fd5fc11b1847e5c"
+  },
+  {
+    "id": "CVE-2026-48959",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-48959",
+    "sha256": "5c1000a3cda49bc1f828900e65734dc41a16e1f984fc61ebf29c175fcae08fe4"
+  },
+  {
+    "id": "CVE-2026-48962",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-48962",
+    "sha256": "7e60f7ff755a75f9dd9e1fca62c567963c877820d07a290489acb0c1c1435a7a"
+  },
+  {
+    "id": "CVE-2026-5435",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-5435",
+    "sha256": "b2e93449c03193d4ccebc92492671c491546aaa5bdbd1f0cd56b9bfc97ffa925"
+  },
+  {
+    "id": "CVE-2026-54369",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-54369",
+    "sha256": "4677cdb2b848eca7bc76f57dd54e5d01e309f438bba58d892550db432fbde5ca"
+  },
+  {
+    "id": "CVE-2026-54370",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-54370",
+    "sha256": "36c932e9051decbe74a402bbe4df1e60f52a17c39cab2785b83901467b36758e"
+  },
+  {
+    "id": "CVE-2026-5450",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-5450",
+    "sha256": "3889fbc181f51a11e5b6d0c2243b2a0d460967fa5a4175a87e036fad266f956c"
+  },
+  {
+    "id": "CVE-2026-57432",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-57432",
+    "sha256": "8c9527cadcb7d4e9f0c2f2a5a1320acb9e334be1deaa5b8281d269d480b20127"
+  },
+  {
+    "id": "CVE-2026-57433",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-57433",
+    "sha256": "1a8ca4de30c9aac7e2a2e5fa8a9132a0c38ced2041456a9d9cae7c6f6a72d134"
+  },
+  {
+    "id": "CVE-2026-5928",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-5928",
+    "sha256": "b5441f0785974b9888d3dc80e6e7a9e36aa3b44cb4dc786ab0889080aa37464f"
+  },
+  {
+    "id": "CVE-2026-7017",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-7017",
+    "sha256": "11c3c27c555a5bef6b23f1908c1a23beeb0120c8659728a43c758ecff6471605"
+  },
+  {
+    "id": "CVE-2026-76642",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-76642",
+    "sha256": "4e0dc0f8852999e67d6c89dab95cfb35f24da2a0094fc540662ecb8df0f358df"
+  },
+  {
+    "id": "CVE-2026-78408",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-78408",
+    "sha256": "47763db7412100c4e0d7bd24c75a3a15c848089a97c0ad3836ba047cc20a430e"
+  },
+  {
+    "id": "CVE-2026-78409",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-78409",
+    "sha256": "db4da5b507258f4fb2808fb596c6b9f7ef24f732934be469edb40b5e1205d706"
+  },
+  {
+    "id": "CVE-2026-78410",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-78410",
+    "sha256": "22782bed6b1f136dc8c5767bcfbcb3dd6fbd392ec46726498d7a82f07b6f17b5"
+  },
+  {
+    "id": "CVE-2026-82560",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-82560",
+    "sha256": "7e0635375703abbe07cdd98efd3987689a81f19becd4f9cdd70cd2026fe76c74"
+  },
+  {
+    "id": "CVE-2026-8376",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-8376",
+    "sha256": "2f463007b0d0b0522958fe977a8f00b05cac33fefa6d8c32d2b56cb3e4ee867a"
+  },
+  {
+    "id": "CVE-2026-85091",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-85091",
+    "sha256": "34f94bace803d2bd3a3d7b49212c8f0d0e575ef8f6148a053e4386b4b7bea9e1"
+  },
+  {
+    "id": "CVE-2026-86145",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-86145",
+    "sha256": "09006c82f122693bc08504526e27ec6458c6c86d850b2fec9c3011ab4e2f2677"
+  },
+  {
+    "id": "CVE-2026-89157",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-89157",
+    "sha256": "bf45c4872298ac1d7f374f806aa91096802b2380ba6812a113194dd6184b233d"
+  },
+  {
+    "id": "CVE-2026-89161",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-89161",
+    "sha256": "4cfe639c3b03ea4822157f1ba88e65617dc8e3268182b4515fbb08ba25948efb"
+  },
+  {
+    "id": "CVE-2026-9538",
+    "url": "https://security-tracker.debian.org/tracker/CVE-2026-9538",
+    "sha256": "3af61be9cd073433d2c4d6e6b1b074769f18d3529a9f5531e5e5c72eeaddf48a"
+  },
+  {
+    "id": "workhorse",
+    "url": "https://registry.npmjs.org/@stablemates/workhorse/0.6.1",
+    "sha256": "6c8bb870add5e8298244ede84be2816617e5139f5b4c2696903418bd19abcce6"
+  },
+  {
+    "id": "workhorse-dashboard",
+    "url": "https://registry.npmjs.org/@stablemates/workhorse-dashboard/0.6.1",
+    "sha256": "0c5163909f43861c24bf51f07bc994b8a40139ecbb51a54806facd14acba6546"
+  },
+  {
+    "id": "workhorse-dashboard-server",
+    "url": "https://registry.npmjs.org/@stablemates/workhorse-dashboard-server/0.6.1",
+    "sha256": "cef21f92ec165e994f0ad617749316b7300cbd8d0b28e4a931e849ed2e8399c3"
+  },
+  {
+    "id": "workhorse-dashboard-contract",
+    "url": "https://registry.npmjs.org/@stablemates/workhorse-dashboard-contract/0.6.1",
+    "sha256": "81cf55545ff2a976aacdc525ba92bc285f320be6e63f7eac4489044f6299e7cb"
+  },
+  {
+    "name": "GHSA-mwp4-54f8-5fhr",
+    "url": "https://github.com/beaugunderson/ip-address/security/advisories/GHSA-mwp4-54f8-5fhr",
+    "sha256": "532f8d308fd0e60cd1d0c3a6bb563339724551de43f5c6dc2b6ed8d3ecff8a5b"
+  },
+  {
+    "name": "GHSA-rgw5-rvv9-x895",
+    "url": "https://github.com/juliangruber/brace-expansion/security/advisories/GHSA-rgw5-rvv9-x895",
+    "sha256": "e20f76a9230f8f2467559623fa71650cd382e023a8871fe43c6fd5b2249e4210"
+  },
+  {
+    "name": "GHSA-mh99-v99m-4gvg",
+    "url": "https://github.com/juliangruber/brace-expansion/security/advisories/GHSA-mh99-v99m-4gvg",
+    "sha256": "5f06d2e864fbe022f336856d1c6f2d95cc1c01c75ae1d37ff08f1e5fe65cf67e"
+  },
+  {
+    "name": "GHSA-6j4f-fj2g-mc7p",
+    "url": "https://github.com/juliangruber/brace-expansion/security/advisories/GHSA-6j4f-fj2g-mc7p",
+    "sha256": "f02b2ba706fd5b38b912d702072aa36ffd758df9eae6053963c5691148a52ae6"
+  },
+  {
+    "name": "GHSA-qhr7-859c-m2p7",
+    "url": "https://github.com/juliangruber/brace-expansion/security/advisories/GHSA-qhr7-859c-m2p7",
+    "sha256": "599498e3a9e20f11f13192acc226ff478d76be71f367ddf0703b01f66097ab82"
+  },
+  {
+    "name": "GHSA-r292-9mhp-454m",
+    "url": "https://github.com/isaacs/node-tar/security/advisories/GHSA-r292-9mhp-454m",
+    "sha256": "64358d055bdca865b70404e203dec7710470b66cdd8477ae1e3f101ff225b583"
+  },
+  {
+    "name": "GHSA-rfgv-xxqx-mfg5",
+    "url": "https://github.com/nodejs/undici/security/advisories/GHSA-rfgv-xxqx-mfg5",
+    "sha256": "cc628cbdcbfa833ce3ee39cf5b0576f5af948780761936d261717b0424686c53"
+  },
+  {
+    "name": "node-zlib-v24.20.0",
+    "url": "https://raw.githubusercontent.com/nodejs/node/v24.20.0/src/node_zlib.cc",
+    "sha256": "0c4d240c9ab1d1ed0a644ca9ee9753a738611a9fce1e3c41635431e2d4bc9e2d"
+  },
+  {
+    "name": "node-env-v24.20.0",
+    "url": "https://raw.githubusercontent.com/nodejs/node/v24.20.0/src/node_env_var.cc",
+    "sha256": "f38521694d05c55f7045d8a0de2eae1619c4a6958bfcbcc4ab7acf9bee7e7d68"
+  },
+  {
+    "name": "node-LICENSE-v24.20.0",
+    "url": "https://raw.githubusercontent.com/nodejs/node/v24.20.0/LICENSE",
+    "sha256": "5888dbb9a1d2b18f2c3e6c5f6af1b39de658372b402a0577b002777f14c62ace"
+  },
+  {
+    "name": "zlib85091patch",
+    "url": "https://github.com/madler/zlib/commit/df84af25dc1942490e1d1c899a07619152a46148.patch",
+    "sha256": "110ff14375733173d8aa54574473424fbd7dfe4b81f1ca34a759c6fe14b15b14"
+  }
+]

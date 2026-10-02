@@ -7,7 +7,7 @@ const branch = process.env.SOURCE_BRANCH || "release-v1";
 if (branch.includes("/")) throw new Error("Use a slash-free publication branch, such as release-v1");
 const SOURCE = github(repository, { branch, rootDirectory: process.env.SOURCE_ROOT_DIRECTORY || "/" });
 const BUILD = { builder: "DOCKERFILE" as const, dockerfilePath: "Dockerfile" };
-const POSTGRES_IMAGE = "postgres:17.9-bookworm@sha256:47f917f7409eacd22fc5dfb1dee634e1b55cf0c01d1a7eb701be2227a03e0641";
+const POSTGRES_IMAGE = "postgres:17.11-bookworm@sha256:639ab7ceb90e13123085b741fb31ef493fba25463002f6da665352e7b534b652";
 const defaults = JSON.parse(readFileSync("template-defaults.json", "utf8"));
 
 export default defineRailway(() => {
